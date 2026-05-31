@@ -344,6 +344,26 @@
       "homepage": "https://dealeraiskills.com",
       "category": "automotive-retail",
       "keywords": ["car-dealer", "automotive-retail", "dealership", "email-flows", "lifecycle-email", "marketing-automation", "customer-retention", "service-retention", "tcpa", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-seo-audit",
+      "source": "./skills/dealer-seo-audit",
+      "description": "Comprehensive traditional Google SEO audit for car dealer websites. 10-dimension, 100-point framework covering crawlability, indexation, on-page SEO (titles, metas, headings), keyword targeting and cannibalization, content depth, URL structure, internal linking, local SEO, inventory feed SEO, hreflang for bilingual sites, and E-E-A-T. Dealer-specific overlays for VDP titles and Vehicle schema, aged inventory handling, NAP at scale, and Spanish-language hreflang implementation. Distinct from dealer-aeo-audit (AI engine citation) and dealer-site-score (technical foundation grader).",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "seo", "seo-audit", "on-page-seo", "technical-seo", "local-seo", "keyword-cannibalization", "hreflang", "bilingual-seo", "inventory-feed-seo", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-cta-audit",
+      "source": "./skills/dealer-cta-audit",
+      "description": "Audit calls-to-action on car dealership website pages for conversion effectiveness. Conversion-focused 6-dimension, 100-point framework: visibility, hierarchy, mobile UX (touch targets, click-to-call, sticky CTAs), copy quality, page-type fit, and tracking. Auto-detects scope (single page, sample, full sweep). Per-page CTA inventory plus scorecard, summary headline, per-page detail, and prioritized fix list with specific replacement copy and design recommendations.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "cta-audit", "call-to-action", "conversion-optimization", "mobile-ux", "click-to-call", "franchise-dealer"]
     }
   ]
 }

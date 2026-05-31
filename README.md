@@ -23,7 +23,7 @@ Skills are **MIT-licensed** and free to install. They link back to free Dealer A
 
 ---
 
-## Available skills (15)
+## Available skills (17)
 
 ### Strategy and planning
 
@@ -54,6 +54,16 @@ Generate AEO/GEO content briefs for dealer pages or blog posts. Outputs a comple
 
 #### [dealer-site-score](./skills/dealer-site-score)
 The dealer website grader. 100-point evaluation across 10 dimensions: performance (Core Web Vitals), hosting, crawlability, security, schema, mobile, accessibility, third-party tag bloat, conversion elements, and dealer-specific signals. Produces a letter grade and prioritized fix list. The agent-installable version of [dealersitescore.com](https://dealersitescore.com).
+
+### Traditional SEO
+
+#### [dealer-seo-audit](./skills/dealer-seo-audit)
+Comprehensive traditional Google SEO audit. 10-dimension, 100-point framework covering crawlability, indexation, on-page SEO (titles, metas, headings), keyword targeting and cannibalization, content depth, URL structure, internal linking, local SEO, inventory feed SEO, **hreflang for bilingual sites**, and E-E-A-T. Dealer-specific overlays for VDP titles and Vehicle schema, aged inventory handling, NAP at scale, and Spanish-language hreflang. Distinct from `dealer-aeo-audit` (AI engine citation) and `dealer-site-score` (technical foundation).
+
+### Conversion optimization
+
+#### [dealer-cta-audit](./skills/dealer-cta-audit)
+Audit calls-to-action (CTAs) across dealer website pages for conversion effectiveness. Conversion-focused 6-dimension, 100-point framework: visibility and prominence, hierarchy (primary vs secondary), mobile UX (touch targets, click-to-call, sticky CTAs), copy quality, page-type fit, and tracking. Per-page CTA inventory plus scorecard, summary headline, per-page detail, and prioritized fix list with specific replacement copy.
 
 ### Inventory and merchandising
 

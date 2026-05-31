@@ -1,0 +1,27 @@
+{
+  "name": "dealer-seo-audit",
+  "version": "1.0.0",
+  "description": "Run a comprehensive traditional Google SEO audit on a car dealership website. 10-dimension, 100-point framework covering crawlability, indexation, on-page SEO (titles, metas, headings), keyword targeting and cannibalization, content depth, URL structure, internal linking, local SEO, inventory feed SEO, hreflang for bilingual sites, and E-E-A-T. Dealer-specific overlays for inventory feed VDP titles and Vehicle schema, aged inventory handling, NAP at scale, location page hierarchy, and Spanish-language hreflang implementation. Distinct from dealer-aeo-audit (AI engine citation) and dealer-site-score (technical foundation grader). The three audits together cover SEO, AEO, and technical health.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "seo",
+    "seo-audit",
+    "on-page-seo",
+    "technical-seo",
+    "local-seo",
+    "keyword-cannibalization",
+    "hreflang",
+    "bilingual-seo",
+    "inventory-feed-seo",
+    "franchise-dealer"
+  ]
+}

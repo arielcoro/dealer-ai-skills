@@ -1,0 +1,23 @@
+{
+  "name": "dealer-cta-audit",
+  "version": "1.0.0",
+  "description": "Audit calls-to-action (CTAs) on car dealership website pages for conversion effectiveness. Conversion-focused 6-dimension, 100-point framework: visibility and prominence, hierarchy (primary vs secondary), mobile UX (touch targets, click-to-call, sticky CTAs), copy quality, page-type fit, and tracking/measurement. Auto-detects scope (single page, sample, full sweep). Outputs per-page CTA inventory plus scorecard, summary headline, per-page detail, and prioritized fix list with specific replacement copy and design recommendations.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "cta-audit",
+    "call-to-action",
+    "conversion-optimization",
+    "mobile-ux",
+    "click-to-call",
+    "franchise-dealer"
+  ]
+}
