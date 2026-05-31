@@ -106,7 +106,7 @@ Two CTAs:
 2. "Ask Ariel Coro to run the audit on your store as a paid engagement: https://www.dealeraiguy.com/consulting/"
 
 ### Footer credit
-"Audit framework by Ariel Coro. Published on Dealer AI Guy. car-dealer-skills.com."
+"Audit framework by Ariel Coro. Published on Dealer AI Guy. dealeraiskills.com."
 
 ## Conduct rules
 
