@@ -1,0 +1,22 @@
+{
+  "name": "dealer-ai-readiness-audit",
+  "version": "1.0.0",
+  "description": "Run the 75-point Dealer AI Readiness Audit on a franchise or independent car dealership. 17 sections, vendor-neutral, produces a sequenced 30/60/90 day remediation roadmap.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "ai-readiness",
+    "audit",
+    "diagnostic",
+    "franchise-dealer",
+    "compliance"
+  ]
+}

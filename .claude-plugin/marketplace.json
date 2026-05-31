@@ -1,0 +1,42 @@
+{
+  "name": "dealer-ai-skills",
+  "displayName": "Dealer AI Skills",
+  "description": "AI agent skills for franchise and independent car dealers. Diagnostics, AEO, BDC operations, F&I compliance, fixed ops, equity mining, and growth engineering.",
+  "owner": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "dealer-ai-readiness-audit",
+      "source": "./skills/dealer-ai-readiness-audit",
+      "description": "Run the 75-point Dealer AI Readiness Audit on a franchise or independent car dealership. 17 sections, vendor-neutral, produces a sequenced 30/60/90 day remediation roadmap.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "ai-readiness",
+        "audit",
+        "diagnostic",
+        "franchise-dealer",
+        "fixed-ops",
+        "bdc",
+        "f-and-i",
+        "compliance",
+        "ftc-safeguards",
+        "aeo",
+        "answer-engine-optimization"
+      ]
+    }
+  ]
+}

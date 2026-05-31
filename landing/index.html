@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dealer AI Skills | AI agent skills for car dealers</title>
+<meta name="description" content="AI agent skills for franchise and independent car dealers. Diagnostics, AEO, BDC, F&I compliance, fixed ops, equity mining, and growth engineering. By Ariel Coro of Dealer AI Guy.">
+<meta name="author" content="Ariel Coro">
+
+<meta property="og:title" content="Dealer AI Skills">
+<meta property="og:description" content="AI agent skills for franchise and independent car dealers. By Ariel Coro of Dealer AI Guy.">
+<meta property="og:url" content="https://dealeraiskills.com">
+<meta property="og:type" content="website">
+
+<link rel="canonical" href="https://dealeraiskills.com">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dealer AI Skills",
+  "url": "https://dealeraiskills.com",
+  "description": "AI agent skills for franchise and independent car dealers.",
+  "author": {
+    "@type": "Person",
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com",
+    "jobTitle": "Founder, Dealer Growth Hackers. Publisher of Dealer AI Guy."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dealer AI Guy",
+    "url": "https://www.dealeraiguy.com"
+  }
+}
+</script>
+
+<style>
+  :root {
+    --ink: #0b1220;
+    --bg: #f7f6f1;
+    --card: #ffffff;
+    --line: #e6e2d6;
+    --muted: #5b6477;
+    --accent: #b8002e;
+    --green: #1a7f4b;
+    --yellow: #c98a00;
+    --green-soft: #e2f3ea;
+    --yellow-soft: #fbf2dc;
+    --red-soft: #fbe1e6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 22px 80px; }
+
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 18px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .brand-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    background: var(--accent);
+    display: inline-block;
+  }
+  .nav { display: flex; gap: 22px; }
+  .nav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nav a:hover { color: var(--ink); }
+
+  .hero {
+    padding: 18px 0 40px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: clamp(36px, 5.5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 16px;
+  }
+  .lede {
+    font-size: clamp(17px, 2vw, 19px);
+    color: #2a3344;
+    max-width: 720px;
+    margin: 0 0 22px;
+  }
+  .byline {
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .byline strong { color: var(--ink); }
+
+  .install-box {
+    background: var(--ink);
+    color: white;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin: 26px 0 10px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 18px;
+  }
+  .install-box code {
+    font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+    color: #ffb1c0;
+    font-size: 15px;
+    word-break: break-all;
+  }
+  .install-box small {
+    display: block;
+    color: rgba(255,255,255,0.55);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+  }
+  .install-cta {
+    background: white;
+    color: var(--ink);
+    padding: 11px 18px;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  h2 {
+    font-family: 'Georgia', serif;
+    font-size: clamp(26px, 3vw, 32px);
+    letter-spacing: -0.01em;
+    margin: 48px 0 10px;
+  }
+  h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    font-weight: 700;
+    margin: 0 0 8px;
+  }
+  p { margin: 0 0 14px; }
+
+  .skill-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin-bottom: 18px;
+  }
+  .skill-card h4 {
+    margin: 6px 0 8px;
+    font-size: 22px;
+    font-family: 'Georgia', serif;
+    letter-spacing: -0.005em;
+  }
+  .skill-card .meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 12px 0 18px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: var(--bg);
+    color: var(--muted);
+    border: 1px solid var(--line);
+  }
+  .skill-card .install-line {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-family: 'SF Mono', 'Menlo', 'Monaco', monospace;
+    font-size: 13px;
+    color: var(--ink);
+    word-break: break-all;
+    margin: 10px 0 14px;
+  }
+  .skill-card .actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 16px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    background: transparent;
+  }
+  .btn.primary { background: var(--ink); color: white; }
+  .btn.accent { background: var(--accent); border-color: var(--accent); color: white; }
+
+  .skill-card.coming {
+    opacity: 0.7;
+  }
+  .skill-card.coming .badge {
+    background: var(--yellow-soft);
+    color: var(--yellow);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  .grid { display: grid; gap: 14px; }
+  @media (min-width: 720px) {
+    .grid.cols-2 { grid-template-columns: 1fr 1fr; }
+  }
+
+  .why {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px 30px;
+    margin-top: 18px;
+  }
+  .why blockquote {
+    margin: 0;
+    padding-left: 18px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  .footer-cta {
+    background: var(--ink);
+    color: white;
+    border-radius: 18px;
+    padding: 40px 32px;
+    margin-top: 48px;
+    text-align: center;
+  }
+  .footer-cta h2 {
+    color: white;
+    margin: 0 0 12px;
+  }
+  .footer-cta p {
+    color: rgba(255,255,255,0.78);
+    max-width: 540px;
+    margin: 0 auto 20px;
+  }
+  .footer-cta .actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer-cta .btn { border-color: rgba(255,255,255,0.4); color: white; }
+  .footer-cta .btn.primary { background: white; color: var(--ink); border-color: white; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    margin-top: 50px;
+    padding-top: 24px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--muted); text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="topbar">
+  <a class="brand" href="https://dealeraiskills.com">
+    <span class="brand-dot"></span>
+    Dealer AI Skills
+  </a>
+  <nav class="nav">
+    <a href="#skills">Skills</a>
+    <a href="#install">Install</a>
+    <a href="https://www.dealeraiguy.com">Dealer AI Guy</a>
+    <a href="https://github.com/arielcoro/dealer-ai-skills">GitHub</a>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="eyebrow">Dealer AI Skills marketplace</div>
+  <h1>AI agent skills built for car dealers.</h1>
+  <p class="lede">Installable, vendor-neutral skills that turn Claude, Codex, Cursor, and Gemini into a working dealer-operations partner. Diagnostics, AEO, BDC, F&amp;I compliance, fixed ops, equity mining, and growth engineering.</p>
+  <p class="byline">By <strong>Ariel Coro</strong>. Founder, Dealer Growth Hackers. Publisher of <a href="https://www.dealeraiguy.com" style="color: var(--muted); text-decoration: underline;">Dealer AI Guy</a>.</p>
+
+  <div class="install-box" id="install">
+    <div>
+      <small>Install in Claude Code</small>
+      <code>/plugin marketplace add arielcoro/dealer-ai-skills</code>
+    </div>
+    <a class="install-cta" href="#skills">See available skills</a>
+  </div>
+</section>
+
+<section id="skills">
+  <h3>Available now</h3>
+  <h2>Skill catalog</h2>
+
+  <div class="skill-card">
+    <h3 style="color: var(--accent); margin-bottom: 4px;">Diagnostic</h3>
+    <h4>Dealer AI Readiness Audit</h4>
+    <p>Run the 75-point Dealer AI Readiness Audit on a franchise or independent car dealership. 17 sections of dealership operations, scored Green / Yellow / Red, producing a total out of 150 and one of four readiness bands. Outputs a sequenced 30 / 60 / 90 day remediation roadmap.</p>
+    <p>Best for: dealer principals, GMs, marketing directors, fixed ops directors, and IT leads who want a vendor-neutral assessment before buying or expanding AI.</p>
+    <div class="meta">
+      <span class="tag">Franchise + Independent</span>
+      <span class="tag">75 items</span>
+      <span class="tag">17 sections</span>
+      <span class="tag">FTC Safeguards Rule</span>
+      <span class="tag">Colorado AI Act</span>
+      <span class="tag">Vendor-neutral</span>
+    </div>
+    <div class="install-line">/plugin install dealer-ai-readiness-audit@dealer-ai-skills</div>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-readiness-audit">View source</a>
+      <a class="btn" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/skills/dealer-ai-readiness-audit/REFERENCE.md">Read the framework</a>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 40px;">Shipping next</h3>
+  <h2 style="margin-top: 4px;">Coming to the marketplace</h2>
+
+  <div class="grid cols-2">
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>AEO Audit for Car Dealers</h4>
+      <p>Find every gap stopping the dealership from being cited by ChatGPT, Perplexity, Gemini, and Copilot when buyers ask about local dealers, brands, and service.</p>
+    </div>
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>Dealer Call Transcript Classifier</h4>
+      <p>Strict-protocol classifier that never inflates sales counts. Reads every transcript end-to-end. Distinguishes true buying intent from service, parts, and tech-support calls.</p>
+    </div>
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>llms.txt Generator for Dealer Sites</h4>
+      <p>Generate a curated llms.txt at the website root so AI engines can index inventory, service, finance, and brand pages cleanly.</p>
+    </div>
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>VDP Merchandising Review</h4>
+      <p>Audit photos, descriptions, schema, and price strategy on a randomly sampled set of VDPs. Output prioritized fixes for the highest-impact units.</p>
+    </div>
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>F&amp;I Compliance Checker</h4>
+      <p>Walk a deal jacket through OFAC, red flags, stip, and adverse action verification with timestamps and audit trail.</p>
+    </div>
+    <div class="skill-card coming">
+      <span class="badge">Soon</span>
+      <h4>Service Drive Declined Recovery Designer</h4>
+      <p>Design 30 / 60 / 90 / 120 day declined-service recovery sequences across SMS, email, and voicemail using your DMS data structure.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>Why this exists</h3>
+  <h2>Most dealer AI projects fail before the vendor is even chosen.</h2>
+  <div class="why">
+    <blockquote>
+      There is a reason most dealer AI projects underperform. It is not the AI. It is the dealership. A store with a messy CRM, a slow website, no governance, and a BDC running on hope cannot install a chatbot and suddenly become a tech company. The AI exposes the cracks faster. The shiny thing on top only performs when the boring foundation underneath is real.
+    </blockquote>
+    <p style="margin-top: 18px; color: var(--muted); font-size: 14px;">From <em>The Dealer AI Readiness Checklist</em> by Ariel Coro.</p>
+  </div>
+</section>
+
+<section>
+  <h3>Install</h3>
+  <h2>Three paths, two minutes each</h2>
+
+  <div class="grid cols-2">
+    <div class="skill-card">
+      <h4>Claude Code (recommended)</h4>
+      <div class="install-line">/plugin marketplace add arielcoro/dealer-ai-skills</div>
+      <div class="install-line">/plugin install dealer-ai-readiness-audit@dealer-ai-skills</div>
+      <p style="font-size: 14px; color: var(--muted);">Activates automatically when relevant phrases come up in conversation.</p>
+    </div>
+    <div class="skill-card">
+      <h4>Manual install</h4>
+      <div class="install-line">git clone https://github.com/arielcoro/dealer-ai-skills.git</div>
+      <div class="install-line">cp -r dealer-ai-skills/skills/dealer-ai-readiness-audit ~/.claude/skills/</div>
+      <p style="font-size: 14px; color: var(--muted);">Works with any agent that loads SKILL.md files: Claude, Cursor, Codex, Gemini CLI.</p>
+    </div>
+  </div>
+</section>
+
+<section class="footer-cta">
+  <h2>Want Ariel's team to run the audit on your store?</h2>
+  <p>Skills are free. The diagnostic walks you through it. If you want a second set of eyes, or a full paid AI readiness engagement with remediation, the consulting page is below.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://www.dealeraiguy.com/consulting/">Talk to Ariel about a paid audit</a>
+    <a class="btn" href="https://www.dealeraiguy.com/tools/">Run the free dealer AI tools</a>
+  </div>
+</section>
+
+<footer>
+  <p>By <strong style="color: var(--ink);">Ariel Coro</strong>. Founder of <a href="https://www.dealeraiguy.com">Dealer Growth Hackers</a>. Publisher of <a href="https://www.dealeraiguy.com">Dealer AI Guy</a>. Marketplace at <a href="https://github.com/arielcoro/dealer-ai-skills">github.com/arielcoro/dealer-ai-skills</a>. MIT licensed.</p>
+  <p style="margin-top: 12px; font-size: 12px;">Skills produce directional guidance, not legal or financial advice. Consult your compliance officer and legal counsel before acting on any regulatory findings.</p>
+</footer>
+
+</div>
+</body>
+</html>
