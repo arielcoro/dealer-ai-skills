@@ -1,0 +1,28 @@
+{
+  "name": "dealer-aeo-audit",
+  "version": "1.0.0",
+  "description": "Run the Dealer AEO Audit on a franchise or independent car dealership website. 30 checks across 10 dimensions covering AI crawler access, llms.txt, schema, entity reinforcement, conversational content, third-party citations, reviews, live AI engine spot-checks, and technical foundation. Produces a prioritized fix list.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "aeo",
+    "answer-engine-optimization",
+    "ai-visibility",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude",
+    "schema-markup",
+    "llms-txt",
+    "audit",
+    "franchise-dealer"
+  ]
+}

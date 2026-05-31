@@ -1,0 +1,28 @@
+{
+  "name": "dealer-search-strategy",
+  "version": "1.0.0",
+  "description": "Generate a comprehensive search strategy document for a car dealership covering SEO (Search Engine Optimization), AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization). Clarifies the difference between SEO, AEO, and GEO. Produces a unified 4-pillar strategy with an integrated 90-day roadmap. Covers traditional Google ranking, AI engine citation (ChatGPT, Perplexity, Gemini, Claude, Copilot), local SEO, technical foundation, and cross-channel reputation. Names the specific marketplace skills as execution tools.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "seo",
+    "aeo",
+    "geo",
+    "answer-engine-optimization",
+    "generative-engine-optimization",
+    "ai-search",
+    "llm-seo",
+    "chatgpt-seo",
+    "perplexity-seo",
+    "search-strategy",
+    "franchise-dealer"
+  ]
+}

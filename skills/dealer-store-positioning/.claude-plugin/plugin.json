@@ -1,0 +1,24 @@
+{
+  "name": "dealer-store-positioning",
+  "version": "1.0.0",
+  "description": "Generate a comprehensive positioning brief and marketing-team-ready content kit for a car dealership. Includes positioning statement, target customer, value proposition, differentiation, voice and tone, brand promise, we-are/we-are-not boundaries, boilerplate language (3 lengths), tagline options, social media bio templates, email signature templates, value proposition variants, and pre-approved language guidelines. Foundational skill: every other marketing skill in the marketplace references the positioning output as input.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "positioning",
+    "brand-strategy",
+    "value-proposition",
+    "differentiation",
+    "content-kit",
+    "brand-voice",
+    "franchise-dealer"
+  ]
+}

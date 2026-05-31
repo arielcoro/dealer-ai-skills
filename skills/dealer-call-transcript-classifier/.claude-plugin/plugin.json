@@ -1,0 +1,23 @@
+{
+  "name": "dealer-call-transcript-classifier",
+  "version": "1.0.0",
+  "description": "Classify car dealership call transcripts into five categories (Sales / Service / Parts / Finance / Other) with strict honesty rules that never inflate the Sales count. Auto-detects input format (single transcript, batch paste, CallRail or CRM export). For Sales-classified calls, extracts vehicle of interest, lead source, and contact captured. Designed for dealer principals, GMs, BDC managers, and agencies who need honest top-of-funnel numbers.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "bdc",
+    "call-classification",
+    "callrail",
+    "transcript-analysis",
+    "honest-reporting",
+    "franchise-dealer"
+  ]
+}

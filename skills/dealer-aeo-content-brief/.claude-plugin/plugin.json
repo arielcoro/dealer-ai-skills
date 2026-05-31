@@ -1,0 +1,25 @@
+{
+  "name": "dealer-aeo-content-brief",
+  "version": "1.0.0",
+  "description": "Generate an Answer Engine Optimization (AEO) content brief for a car dealership page or post. Outputs a complete, paste-ready brief with target query, page type, title, opening 100 words verbatim, section outline, required Q&A with AI extraction sentences, internal links, external citations, schema spec, image specs, and length/tone guidance. Pairs with dealer-aeo-audit. Includes seven dealer-specific page-type patterns: model guide, service guide, buying help, comparison, financing guide, local landing page, and general blog.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "aeo",
+    "answer-engine-optimization",
+    "content-brief",
+    "content-marketing",
+    "seo",
+    "ai-visibility",
+    "franchise-dealer",
+    "generator"
+  ]
+}

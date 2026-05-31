@@ -1,0 +1,24 @@
+{
+  "name": "dealer-vdp-merchandising-review",
+  "version": "1.0.0",
+  "description": "Review a sample of Vehicle Detail Pages (VDPs) on a car dealership website for merchandising quality. 10 dimensions covering photos, descriptions, pricing, vehicle data, schema, CTAs, trust signals, cross-sell, mobile UX, and OEM compliance. Brand-aware: applies OEM-specific standards for GM, Ford, Stellantis, Toyota, Honda, Hyundai/Kia, VW/Audi, Subaru, and falls back to brand-neutral checks for other brands. Outputs per-VDP scorecards plus a summary headline and prioritized fix list.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "vdp",
+    "vehicle-detail-page",
+    "merchandising",
+    "audit",
+    "oem-compliance",
+    "schema-markup",
+    "franchise-dealer"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "dealer-ai-visibility",
+  "version": "1.0.0",
+  "description": "Monitor what AI engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Mode) are actually saying about a car dealership. Runs a 25-30 query taxonomy with bilingual variants, extracts citations, buckets cited sources by type (OEM, third-party listings, reviews, forums, local press, dealer-owned), computes citation share against competitors, and produces a quarterly report plus optional Word doc and live HTML dashboard. Two modes: manual paste (universal) and agent-driven (with Ahrefs Brand Radar MCP or web tools). Branded as Dealer AI Visibility at dealeraivisibility.com from Dealer Growth Hackers. Distinct from dealer-aeo-audit: the audit finds the gaps; this skill measures the live citation result and competitive share.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraivisibility.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "ai-visibility",
+    "ai-citation-tracker",
+    "aeo",
+    "geo",
+    "answer-engine-optimization",
+    "generative-engine-optimization",
+    "chatgpt-monitoring",
+    "perplexity-tracking",
+    "gemini-citation",
+    "google-ai-mode",
+    "competitive-intelligence",
+    "ai-brand-monitoring",
+    "franchise-dealer"
+  ]
+}

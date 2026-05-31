@@ -1,0 +1,23 @@
+{
+  "name": "dealer-llms-txt-generator",
+  "version": "1.0.0",
+  "description": "Generate a curated llms.txt file for a car dealership website. Produces a paste-ready file optimized for AI engine citation. Pairs naturally with the dealer-aeo-audit: that audit finds the gap, this skill closes it.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "llms-txt",
+    "aeo",
+    "answer-engine-optimization",
+    "ai-visibility",
+    "generator",
+    "franchise-dealer"
+  ]
+}

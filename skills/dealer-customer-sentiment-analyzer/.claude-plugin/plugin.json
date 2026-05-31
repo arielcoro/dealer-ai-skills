@@ -1,0 +1,24 @@
+{
+  "name": "dealer-customer-sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze car dealership customer reviews across multiple dimensions: department-level sentiment, top recurring themes with quoted evidence, named-staff mentions, trend analysis, and reviews that warrant a dealer response. Auto-detects input format (single review, batch paste, CSV export, or URL fetch with agent tools). Reads the text rather than relying on star ratings. Honest about negatives. Bilingual support.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "sentiment-analysis",
+    "review-analysis",
+    "reputation-management",
+    "google-reviews",
+    "dealerrater",
+    "csi",
+    "franchise-dealer"
+  ]
+}

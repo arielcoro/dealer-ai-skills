@@ -1,0 +1,23 @@
+{
+  "name": "dealer-new-customer-onboarding",
+  "version": "1.0.0",
+  "description": "Design a comprehensive 90-day post-sale customer onboarding program for a car dealership. Multi-channel (email + SMS + in-person + optional ringless voicemail) covering delivery through first service intro. Built around the critical sales-to-service handoff that determines long-term service retention. Includes OEM-specific connected services activation flows (OnStar, FordPass, Uconnect, etc.). 4 phases, 15-20 touchpoints, ready-to-use templates per touchpoint.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "onboarding",
+    "customer-experience",
+    "sales-to-service-handoff",
+    "service-retention",
+    "lifecycle",
+    "franchise-dealer"
+  ]
+}

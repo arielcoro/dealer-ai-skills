@@ -1,0 +1,24 @@
+{
+  "name": "dealer-email-flows",
+  "version": "1.0.0",
+  "description": "Build comprehensive lifecycle email flows for a car dealership covering the full customer relationship from purchase through year 5+. 17 dealer-specific flows: service reminder, declined recovery, lapsed-service revival, anniversary, win-back, service appointment confirmation, post-service NPS, recall outreach, quote follow-up, delivery welcome, lease maturity, equity check-in, birthday, OEM event invite, holiday, referral, test-drive follow-up. No abandoned-cart pattern (not relevant for dealer retail). Compliance guardrails inherited from dealer-equity-mining-campaign-builder. Pairs with dealer-new-customer-onboarding (handles first 90 days) and dealer-equity-mining-campaign-builder (handles time-bound upgrade campaigns).",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "email-flows",
+    "lifecycle-email",
+    "marketing-automation",
+    "customer-retention",
+    "service-retention",
+    "tcpa",
+    "franchise-dealer"
+  ]
+}

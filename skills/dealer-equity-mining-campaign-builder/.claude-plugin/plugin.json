@@ -1,0 +1,24 @@
+{
+  "name": "dealer-equity-mining-campaign-builder",
+  "version": "1.0.0",
+  "description": "Build a complete equity mining campaign for a car dealership: blueprint (cadence, channels, gates, KPIs) plus messaging templates (SMS, email, ringless voicemail) across the proven 3-channel cadence. Six standard personas: lease returner, equity-positive trade-up, service-to-sales, OEM-program eligible, upside-down upgrader, dormant reactivation. Compliance guardrails (opt-in gates, suppression, frequency caps, TCPA) baked into every touch.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "equity-mining",
+    "service-to-sales",
+    "lease-return",
+    "campaign-builder",
+    "tcpa",
+    "multi-channel",
+    "franchise-dealer"
+  ]
+}

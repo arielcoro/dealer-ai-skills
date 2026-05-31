@@ -1,0 +1,24 @@
+{
+  "name": "dealer-comparison-page-builder",
+  "version": "1.0.0",
+  "description": "Build one in-depth comparison page between a car dealership and a single named competitor. Optimized for AEO/GEO citation, Google ranking on 'Dealer A vs Dealer B' queries, and sales floor enablement. Includes a 10-to-15 dimension comparison framework, fair-play rules (the competitor wins on at least one dimension for credibility), schema markup spec, and a sales floor talk track for when customers are cross-shopping. Pairs with dealer-store-positioning and dealer-aeo-content-brief.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "comparison-page",
+    "competitor-comparison",
+    "aeo",
+    "geo",
+    "seo",
+    "sales-enablement",
+    "franchise-dealer"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dealer-site-score",
+  "version": "1.0.0",
+  "description": "Dealer Site Score, the dealer website grader. 100-point evaluation across 10 dimensions: performance (Core Web Vitals), hosting, crawlability, security, schema, mobile, accessibility, third-party tag bloat, conversion elements, and dealer-specific signals. Produces a letter grade and prioritized fix list. Branded version of the free tool at dealersitescore.com.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealersitescore.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "dealer-site-score",
+    "dealer-website-grader",
+    "core-web-vitals",
+    "performance",
+    "hosting",
+    "schema-markup",
+    "audit",
+    "franchise-dealer",
+    "lighthouse",
+    "pagespeed"
+  ]
+}

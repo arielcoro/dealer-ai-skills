@@ -37,6 +37,313 @@
         "aeo",
         "answer-engine-optimization"
       ]
+    },
+    {
+      "name": "dealer-aeo-audit",
+      "source": "./skills/dealer-aeo-audit",
+      "description": "Run the Dealer AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) Audit on a car dealership website. 30 checks across 10 dimensions covering AI crawler access, llms.txt, schema markup, entity reinforcement, conversational content, third-party citations, reviews, live AI engine spot-checks, and technical foundation. Produces a prioritized fix list to improve citations in ChatGPT, Perplexity, Gemini, Claude, and Copilot. AEO and GEO are functionally synonymous; this skill covers both.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "aeo",
+        "geo",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "ai-visibility",
+        "ai-search",
+        "llm-seo",
+        "chatgpt",
+        "perplexity",
+        "gemini",
+        "claude",
+        "schema-markup",
+        "llms-txt",
+        "audit",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-llms-txt-generator",
+      "source": "./skills/dealer-llms-txt-generator",
+      "description": "Generate a curated llms.txt file for a car dealership website. Produces a paste-ready file optimized for AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization). Improves citation rates in ChatGPT, Perplexity, Gemini, Claude, and Copilot. Pairs naturally with the dealer-aeo-audit: that audit finds the gap, this skill closes it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "llms-txt",
+        "aeo",
+        "geo",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "ai-search",
+        "llm-seo",
+        "ai-visibility",
+        "generator",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-site-score",
+      "source": "./skills/dealer-site-score",
+      "description": "Dealer Site Score, the dealer website grader. 100-point evaluation across 10 dimensions: performance (Core Web Vitals), hosting, crawlability, security, schema, mobile, accessibility, third-party tag bloat, conversion elements, and dealer-specific signals. Produces a letter grade and prioritized fix list. Branded version of the free tool at dealersitescore.com.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealersitescore.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "dealer-site-score",
+        "dealer-website-grader",
+        "core-web-vitals",
+        "performance",
+        "hosting",
+        "schema-markup",
+        "audit",
+        "franchise-dealer",
+        "lighthouse",
+        "pagespeed"
+      ]
+    },
+    {
+      "name": "dealer-aeo-content-brief",
+      "source": "./skills/dealer-aeo-content-brief",
+      "description": "Generate an Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) content brief for a car dealership page or post. Outputs a complete, paste-ready brief with target query, page type, title, opening 100 words verbatim, section outline, required Q&A with AI extraction sentences, internal links, external citations, schema spec, image specs, and length/tone guidance. Pairs with dealer-aeo-audit. Includes seven dealer-specific page-type patterns. AEO and GEO are functionally synonymous; this skill covers both.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "aeo",
+        "geo",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "ai-search",
+        "llm-seo",
+        "content-brief",
+        "content-marketing",
+        "ai-visibility",
+        "franchise-dealer",
+        "generator"
+      ]
+    },
+    {
+      "name": "dealer-call-transcript-classifier",
+      "source": "./skills/dealer-call-transcript-classifier",
+      "description": "Classify car dealership call transcripts into five categories (Sales / Service / Parts / Finance / Other) with strict honesty rules that never inflate the Sales count. Auto-detects input format (single transcript, batch paste, CallRail or CRM export). For Sales-classified calls, extracts vehicle of interest, lead source, and contact captured.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "bdc",
+        "call-classification",
+        "callrail",
+        "transcript-analysis",
+        "honest-reporting",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-equity-mining-campaign-builder",
+      "source": "./skills/dealer-equity-mining-campaign-builder",
+      "description": "Build a complete equity mining campaign for a car dealership: blueprint (cadence, channels, gates, KPIs) plus messaging templates (SMS, email, ringless voicemail) across the proven 3-channel cadence. Six personas: lease returner, equity-positive trade-up, service-to-sales, OEM-program eligible, upside-down upgrader, dormant reactivation. Compliance guardrails baked in.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "equity-mining",
+        "service-to-sales",
+        "lease-return",
+        "campaign-builder",
+        "tcpa",
+        "multi-channel",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-vdp-merchandising-review",
+      "source": "./skills/dealer-vdp-merchandising-review",
+      "description": "Review a sample of Vehicle Detail Pages (VDPs) on a car dealership website for merchandising quality. 10 dimensions covering photos, descriptions, pricing, vehicle data, schema, CTAs, trust signals, cross-sell, mobile UX, and OEM compliance. Brand-aware: applies OEM-specific standards for GM, Ford, Stellantis, Toyota, Honda, Hyundai/Kia, VW/Audi, Subaru. Per-VDP scorecards plus summary and prioritized fix list.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "vdp",
+        "vehicle-detail-page",
+        "merchandising",
+        "audit",
+        "oem-compliance",
+        "schema-markup",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-customer-sentiment-analyzer",
+      "source": "./skills/dealer-customer-sentiment-analyzer",
+      "description": "Analyze car dealership customer reviews across multiple dimensions: department-level sentiment, top recurring themes with quoted evidence, named-staff mentions, trend analysis, and reviews that warrant a dealer response. Auto-detects input format. Reads the text rather than relying on star ratings. Honest about negatives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "sentiment-analysis",
+        "review-analysis",
+        "reputation-management",
+        "google-reviews",
+        "dealerrater",
+        "csi",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-search-strategy",
+      "source": "./skills/dealer-search-strategy",
+      "description": "Generate a comprehensive search strategy document for a car dealership covering SEO (Search Engine Optimization), AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization). Clarifies the difference between SEO, AEO, and GEO. Produces a unified 4-pillar strategy with an integrated 90-day roadmap covering technical foundation, traditional Google ranking, AI engine citation (ChatGPT, Perplexity, Gemini, Claude, Copilot), and cross-channel reputation. Names the specific marketplace skills as execution tools.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "seo",
+        "aeo",
+        "geo",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "ai-search",
+        "llm-seo",
+        "chatgpt-seo",
+        "perplexity-seo",
+        "search-strategy",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-ai-visibility",
+      "source": "./skills/dealer-ai-visibility",
+      "description": "Monitor what AI engines (ChatGPT, Perplexity, Gemini, Claude, Google AI Mode) are actually saying about a car dealership. Runs a 25-30 query taxonomy with bilingual variants, extracts citations, buckets cited sources by type (OEM, third-party listings, reviews, forums, local press, dealer-owned), computes citation share against competitors, and produces a quarterly report plus optional Word doc and live HTML dashboard. Branded as Dealer AI Visibility at dealeraivisibility.com. Distinct from dealer-aeo-audit: the audit finds the gaps; this skill measures the live result and competitive share.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ariel Coro",
+        "url": "https://www.dealeraiguy.com"
+      },
+      "homepage": "https://dealeraivisibility.com",
+      "category": "automotive-retail",
+      "keywords": [
+        "car-dealer",
+        "automotive-retail",
+        "dealership",
+        "ai-visibility",
+        "ai-citation-tracker",
+        "aeo",
+        "geo",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "chatgpt-monitoring",
+        "perplexity-tracking",
+        "gemini-citation",
+        "google-ai-mode",
+        "competitive-intelligence",
+        "ai-brand-monitoring",
+        "franchise-dealer"
+      ]
+    },
+    {
+      "name": "dealer-store-positioning",
+      "source": "./skills/dealer-store-positioning",
+      "description": "Generate a comprehensive positioning brief and marketing-team-ready content kit for a car dealership. Includes positioning statement, target customer, value proposition, differentiation, voice and tone, brand promise, we-are/we-are-not boundaries, boilerplate language (3 lengths), tagline options, social media bio templates, email signature templates, value proposition variants, and pre-approved language guidelines. Foundational skill: every other marketing skill in the marketplace references the positioning output as input.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "positioning", "brand-strategy", "value-proposition", "differentiation", "content-kit", "brand-voice", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-comparison-page-builder",
+      "source": "./skills/dealer-comparison-page-builder",
+      "description": "Build one in-depth comparison page between a car dealership and a single named competitor. Optimized for AEO/GEO citation, Google ranking on 'Dealer A vs Dealer B' queries, and sales floor enablement. Includes 10-15 dimension comparison framework, fair-play rules (the competitor wins on at least one dimension for credibility), schema markup spec, and sales floor talk track for when customers are cross-shopping.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "comparison-page", "competitor-comparison", "aeo", "geo", "seo", "sales-enablement", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-new-customer-onboarding",
+      "source": "./skills/dealer-new-customer-onboarding",
+      "description": "Design a comprehensive 90-day post-sale customer onboarding program for a car dealership. Multi-channel (email + SMS + in-person + optional ringless voicemail) covering delivery through first service intro. Built around the critical sales-to-service handoff that determines long-term service retention. Includes OEM-specific connected services activation flows (OnStar, FordPass, Uconnect, etc.). 4 phases, 15-20 touchpoints, ready-to-use templates per touchpoint.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "onboarding", "customer-experience", "sales-to-service-handoff", "service-retention", "lifecycle", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-email-flows",
+      "source": "./skills/dealer-email-flows",
+      "description": "Build comprehensive lifecycle email flows for a car dealership covering the full customer relationship from purchase through year 5+. 17 dealer-specific flows including service reminders, declined recovery, lease maturity, equity check-in, anniversary, OEM event invite, lapsed-service revival, recall outreach, birthday, holiday, win-back, referral, test-drive follow-up, quote follow-up, service appointment confirmation, post-service NPS, and delivery welcome. No abandoned-cart pattern. Compliance guardrails inherited from dealer-equity-mining-campaign-builder.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "email-flows", "lifecycle-email", "marketing-automation", "customer-retention", "service-retention", "tcpa", "franchise-dealer"]
     }
   ]
 }
