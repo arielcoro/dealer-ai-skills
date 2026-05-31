@@ -20,7 +20,7 @@ Option A. Via GitHub CLI (recommended, faster):
 ```bash
 gh repo create arielcoro/dealer-ai-skills \
   --public \
-  --description "AI agent skills for franchise and independent car dealers. By Ariel Coro of Dealer AI Guy." \
+  --description "AI solutions for car dealerships: open-source agent skills for AI readiness, dealer SEO/AEO/GEO, BDC, fixed ops, equity mining, reviews, and VDP merchandising." \
   --homepage "https://dealeraiskills.com" \
   --source=. \
   --remote=origin \
@@ -32,7 +32,7 @@ Option B. Manual:
 1. Go to https://github.com/new
 2. Owner: arielcoro
 3. Repository name: dealer-ai-skills
-4. Description: AI agent skills for franchise and independent car dealers. By Ariel Coro of Dealer AI Guy.
+4. Description: AI solutions for car dealerships: open-source agent skills for AI readiness, dealer SEO/AEO/GEO, BDC, fixed ops, equity mining, reviews, and VDP merchandising.
 5. Public.
 6. Do NOT initialize with README, .gitignore, or license (we already have those).
 7. Create repository.
@@ -46,24 +46,29 @@ git push -u origin main
 
 ## After the push
 
-Add these GitHub topics on the repo Settings → Topics page to maximize discoverability:
+Add these GitHub topics on the repo Settings → Topics page to maximize discoverability. GitHub allows up to 20 topics, so keep this list tight:
 
 ```
-claude-skills
-claude-code
 agent-skills
-car-dealer
-automotive-retail
-dealership
 ai-audit
 ai-readiness
+ai-solutions
+answer-engine-optimization
+automotive-ai
+automotive-retail
+bdc
+car-dealer
+car-dealer-ai
+claude-skills
+dealer-aeo
+dealer-ai
+dealer-ai-seo
+dealer-geo
+dealer-seo
+dealership
+dealership-ai
 franchise-dealer
 fixed-ops
-bdc
-f-and-i
-aeo
-answer-engine-optimization
-ftc-safeguards
 ```
 
 Set the website to `https://dealeraiskills.com` on Settings → General.
