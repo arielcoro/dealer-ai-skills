@@ -102,7 +102,7 @@ AI engines weight ordering. Use this exact order. Skip a section only if the dea
 
 **One-line differentiator at the top.** The blockquote `> ...` immediately after the H1 is the engine's first signal about what makes this dealer distinct. Use the user-provided differentiator. Do not invent.
 
-**No marketing slogans.** Replace "Where the deals are" with "Sells GMC, Buick, and Chevrolet in Albertville, AL." Description is information, not advertising.
+**No marketing slogans.** Replace "Where the deals are" with "Sells GMC, Buick, and Chevrolet in [City, State]." Description is information, not advertising.
 
 ---
 

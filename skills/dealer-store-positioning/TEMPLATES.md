@@ -20,7 +20,7 @@ Produced in three lengths. Each length has a specific use case.
 
 **Example:**
 
-> Howard Bentley Buick GMC is a family-owned franchise GMC and Buick dealer in Albertville, Alabama serving north Alabama families with top-five national GMC delivery volume and bilingual service.
+> Example Buick GMC Dealer is a family-owned franchise GMC and Buick dealer in [City, State] serving [region] families with high-volume national GMC delivery and bilingual service.
 
 **Quality rules:**
 - Under 30 words total
@@ -40,7 +40,7 @@ Produced in three lengths. Each length has a specific use case.
 
 **Example:**
 
-> Howard Bentley Buick GMC is a 40-year-old franchise GMC and Buick dealer in Albertville, Alabama, family-owned and recognized as a top-five national GMC dealer in 2025 with 3,955 deliveries. Factory-trained GMC and Buick service available six days a week. Serving north Alabama families with no-pressure sales, transparent F&I, and Spanish-speaking staff across departments.
+> Example Buick GMC Dealer is a 40-year-old franchise GMC and Buick dealer in [City, State], family-owned and recognized as a high-volume national GMC dealer. Factory-trained GMC and Buick service available six days a week. Serving [region] families with no-pressure sales, transparent F&I, and Spanish-speaking staff across departments.
 
 **Quality rules:**
 - 45 to 60 words
@@ -65,11 +65,11 @@ In [most recent year], [Dealership Name] was recognized as [OEM award]. The deal
 
 **Example:**
 
-> Howard Bentley Buick GMC is a 40-year-old franchise GMC and Buick dealer in Albertville, Alabama, family-owned by the Bentley family. Founded in 1985, the dealership has grown to serve north Alabama families across Marshall, Etowah, DeKalb, and Madison counties.
+> Example Buick GMC Dealer is a 40-year-old franchise GMC and Buick dealer in [City, State], family-owned. Founded in [year], the dealership has grown to serve [region] families across [list of counties].
 >
-> In 2025, Howard Bentley was recognized as a top-five national GMC dealer with 3,955 deliveries. The dealership maintains GMC and Buick master technician certifications, a six-day-a-week service drive, and a no-pressure sales process designed around transparent pricing and respect for the customer's time.
+> Example Dealer is recognized as a high-volume national GMC dealer. The dealership maintains GMC and Buick master technician certifications, a six-day-a-week service drive, and a no-pressure sales process designed around transparent pricing and respect for the customer's time.
 >
-> Howard Bentley is bilingual across sales, service, and F&I, and serves north Alabama families with the discipline of a top-five national store and the relationships of a family-owned dealership.
+> Example Dealer is bilingual across sales, service, and F&I, and serves [region] families with the discipline of a high-volume national store and the relationships of a family-owned dealership.
 
 **Quality rules:**
 - 90 to 120 words
@@ -391,16 +391,16 @@ Produce a list of 10 to 15 pre-approved phrases, claims, and framings the market
 
 **Examples (customize per dealership):**
 
-- "Top-five national GMC dealer in 2025 with 3,955 deliveries"
+- "[OEM award level and year — e.g., top-tier national GMC dealer]"
 - "GMC and Buick master technicians"
-- "Family-owned since 1985"
+- "Family-owned since [year]"
 - "Bilingual sales, service, and F&I staff"
 - "No-pressure sales process"
 - "Same-day service for routine maintenance"
 - "GMC Loyalty Owner Bonus eligible"
 - "Trade-in value walkthroughs with every customer"
 - "Saturday service hours from 8 AM to 2 PM"
-- "North Alabama's [specific superlative the dealership can defend]"
+- "[Region]'s [specific superlative the dealership can defend]"
 
 **Quality rules:**
 - Each item is specific, not generic

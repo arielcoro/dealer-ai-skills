@@ -21,10 +21,10 @@ These are the principles every brief should encode. They are not optional.
 The first 100 words of every page must answer the target query directly. Not a slogan. Not a marketing introduction. The actual answer.
 
 Wrong (marketing prose):
-> Welcome to Howard Bentley Buick GMC, where Alabama families have trusted us with their automotive needs for generations. Our award-winning service team is dedicated to going above and beyond...
+> Welcome to Example Buick GMC Dealer, where families have trusted us with their automotive needs for generations. Our award-winning service team is dedicated to going above and beyond...
 
 Right (answer-first):
-> Howard Bentley Buick GMC offers brake service, oil changes, multi-point inspections, transmission service, and tire rotations Monday through Friday from 7am to 6pm and Saturday from 8am to 2pm at 2901 US Highway 431, Albertville, AL. A standard brake job on a GMC Sierra typically takes 60 to 90 minutes.
+> Example Buick GMC Dealer offers brake service, oil changes, multi-point inspections, transmission service, and tire rotations Monday through Friday from 7am to 6pm and Saturday from 8am to 2pm at [Address]. A standard brake job on a GMC Sierra typically takes 60 to 90 minutes.
 
 AI engines extract the second version. They extract nothing from the first.
 
@@ -36,7 +36,7 @@ Wrong: "Our service department is experienced and reliable."
 Right: "Our service team includes 6 GMC-certified master technicians with an average of 12 years of experience."
 
 Wrong: "We offer competitive financing."
-Right: "We work with 22 lenders including GM Financial, Ally, Capital One Auto, and credit unions across north Alabama, with rates from 5.9% APR for qualified buyers."
+Right: "We work with 22 lenders including GM Financial, Ally, Capital One Auto, and credit unions across [region], with rates from 5.9% APR for qualified buyers."
 
 Specific over general is the highest-leverage edit on any dealer page.
 
@@ -106,9 +106,9 @@ The brief decides: rewrite an existing URL (provide the URL) or create new.
 
 ### 3. Title and meta
 
-**HTML title.** Under 60 characters. Includes the primary topic, the dealership name, the location. Format: `[Topic] | [Dealership Name] | [City]`. Example: `GMC Sierra Denali Towing Guide | Howard Bentley GMC | Albertville`.
+**HTML title.** Under 60 characters. Includes the primary topic, the dealership name, the location. Format: `[Topic] | [Dealership Name] | [City]`. Example: `GMC Sierra Denali Towing Guide | Example GMC Dealer | [City]`.
 
-**Meta description.** Under 160 characters. Answers the primary query in plain language. Example: `Towing capacity, hitch options, and payload limits for the 2026 GMC Sierra Denali, with available trims at Howard Bentley GMC in Albertville, AL.`
+**Meta description.** Under 160 characters. Answers the primary query in plain language. Example: `Towing capacity, hitch options, and payload limits for the 2026 GMC Sierra Denali, with available trims at Example GMC Dealer in [City, State].`
 
 ### 4. H1 and opening 100 words
 
@@ -186,8 +186,8 @@ Always include `mainEntity` properly. Always include `author` and `publisher`. A
 The brief specifies:
 - Number of images (typically 2 to 5).
 - Image type for each (hero, product, service in action, staff portrait, comparison chart).
-- Alt text pattern. Example: "GMC Sierra Denali AT4X towing a boat trailer at Howard Bentley GMC in Albertville, AL." Specific, descriptive, includes brand and dealership.
-- Filename recommendations. Example: `gmc-sierra-denali-towing-howard-bentley.jpg` (descriptive, hyphenated, dealer-suffixed).
+- Alt text pattern. Example: "GMC Sierra Denali AT4X towing a boat trailer at Example GMC Dealer in [City, State]." Specific, descriptive, includes brand and dealership.
+- Filename recommendations. Example: `gmc-sierra-denali-towing-example-dealer.jpg` (descriptive, hyphenated, dealer-suffixed).
 - Source preference: OEM stock (for product), dealer-shot (for service and staff), licensed stock (avoid generic stock when possible).
 
 ### 12. Length, tone, and DO NOTs

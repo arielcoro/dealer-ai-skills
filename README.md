@@ -149,7 +149,7 @@ Tell your agent things like:
 - "Audit my dealer site for AEO."
 - "Generate llms.txt for my GMC dealership."
 - "What is ChatGPT saying about my dealership?"
-- "Build a comparison page: Howard Bentley vs Birmingham Buick."
+- "Build a comparison page: [our dealership] vs [competitor dealer]."
 - "Classify these call transcripts and tell me how many sales calls."
 - "Design our 90-day new customer onboarding program."
 - "Build the lifecycle email flows for our dealership."
@@ -190,9 +190,7 @@ This marketplace exists to make rigorous, vendor-neutral diagnostics and operati
 
 ## About the author
 
-**Ariel Coro** is the founder of Dealer Growth Hackers and the publisher of [Dealer AI Guy](https://www.dealeraiguy.com). He keynotes on AI, innovation, and immigrant entrepreneurship under "Innovating with an Accent."
-
-His agency's work has taken a top-five national GMC store from 2,955 deliveries in 2023 to 3,955 in 2025, a 34% unit-sales increase across that window. He is a former recurring tech expert on Univision's Despierta America and the author of "El Salto" (Random House) and "The Answer Engine."
+**Ariel Coro** is the founder of [Dealer Growth Hackers](https://dealergrowthhackers.com) and the publisher of [Dealer AI Guy](https://www.dealeraiguy.com). He keynotes on AI, innovation, and immigrant entrepreneurship under "Innovating with an Accent."
 
 ---
 

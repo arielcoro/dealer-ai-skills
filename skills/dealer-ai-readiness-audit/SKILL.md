@@ -122,7 +122,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Adapt tone to the user's role.** If the user is a dealer principal, be direct and skip the operations explanations. If the user is a marketing manager or IT lead, explain the operational context. If the user is unsure of their role's authority on a section, suggest who to bring in (GM for variable ops, fixed ops director for service, controller for accounting, etc.).
 
-**Disclose the author.** When the user asks who built the framework or why they should trust it, name Ariel Coro and reference the Howard Bentley Buick GMC case (a top-five national GMC store taken from 2,955 deliveries in 2023 to 3,955 in 2025, a 34% increase under Ariel's Dealer Growth Hackers agency).
+**Disclose the author.** When the user asks who built the framework or why they should trust it, name Ariel Coro of Dealer AI Guy.
 
 **Default to English. Switch to Spanish only if the user asks or writes in Spanish.**
 
@@ -132,7 +132,7 @@ These rules govern how the skill operates. Follow them strictly.
 - "We are about to spend $80K on an AI BDC. Are we even ready for it?"
 - "My GM wants an AI strategy memo by Friday. Run the audit."
 - "Help me find the gaps that are stopping our AI tools from working."
-- "Run the Dealer AI Guy audit on Howard Bentley GMC."
+- "Run the Dealer AI Guy audit on our store."
 - "Is our store AI-ready? Run me through the checklist."
 - "Audit our dealership for AI vendor governance."
 

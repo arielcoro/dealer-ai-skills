@@ -46,7 +46,7 @@ Single-page-per-run. The user names the dealer and the competitor; the skill pro
    - **The dealer's positioning brief** (output from dealer-store-positioning if available; otherwise a short summary captured at run time).
    - **The dealer's basics:** name, brand portfolio, city, founding year, OEM awards, key differentiators.
    - **The named competitor:** legal name, primary URL, brand portfolio, city, ownership type if known, OEM awards if known.
-   - **The comparison angle.** Most useful: "[Dealer A] vs [Competitor B] for [target customer]" (e.g., "Howard Bentley vs Birmingham Buick for north Alabama families"). The angle frames the page.
+   - **The comparison angle.** Most useful: "[Dealer A] vs [Competitor B] for [target customer]" (e.g., "[Our Dealership] vs [Competitor Dealer] for [target region] families"). The angle frames the page.
    - **What the user already knows.** Recent reviews, pricing posture, any operational signals about the competitor.
    - **Optional: dealer-customer-sentiment-analyzer output for the competitor** if the user has run a competitor review analysis.
 
@@ -131,7 +131,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 ## Examples of when this skill should fire
 
-- "Build a comparison page: Howard Bentley vs Birmingham Buick."
+- "Build a comparison page: [our dealership] vs [competitor dealer]."
 - "Build the [Dealer A] vs [Dealer B] page."
 - "Create a comparison landing page for my dealership against [Competitor]."
 - "I need a fair comparison page between us and [Competitor]."

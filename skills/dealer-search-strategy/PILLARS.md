@@ -90,7 +90,7 @@ Despite the migration to AI engines, the majority of high-intent dealer queries 
 
 **E-E-A-T signals.** Author bios with credentials on content pages, dealer principal bio with industry recognition, OEM awards displayed, security certifications visible.
 
-**Inventory feed and SRP/VDP optimization.** SRPs target broad keyword variants ("used trucks in Albertville"). VDPs target specific model-trim-year combinations. Vehicle schema on every VDP. Unique descriptions per vehicle. Photo SEO (filenames, alt text).
+**Inventory feed and SRP/VDP optimization.** SRPs target broad keyword variants ("used trucks in [target city]"). VDPs target specific model-trim-year combinations. Vehicle schema on every VDP. Unique descriptions per vehicle. Photo SEO (filenames, alt text).
 
 **Internal linking strategy.** Pillar pages (e.g., GMC Sierra overview) link to specific model-year pages. Service guides link to scheduling page. Buying help pages link to financing.
 
@@ -139,7 +139,7 @@ The discipline of being cited in AI engine answers when buyers ask AI engines (C
 
 ### Why it matters
 
-A growing share of buyer research happens at AI engines. Buyers ask "best GMC dealer in Albertville" of ChatGPT directly, read the answer, and form impressions of which dealers exist and which are credible before they ever touch Google.
+A growing share of buyer research happens at AI engines. Buyers ask "best GMC dealer in [target city]" of ChatGPT directly, read the answer, and form impressions of which dealers exist and which are credible before they ever touch Google.
 
 A dealer who is missing from AI answers does not exist for the research-stage buyer. The cost of being missing is invisible — there is no log of the conversation — but it is real.
 

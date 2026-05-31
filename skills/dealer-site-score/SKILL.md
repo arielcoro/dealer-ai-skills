@@ -180,7 +180,7 @@ These rules govern how the skill operates. Follow them strictly.
 ## Examples of when this skill should fire
 
 - "Grade my Buick GMC dealer website."
-- "Run dealer site score on howardbentleybuickgmc.com."
+- "Run dealer site score on example-buickgmc-dealer.com."
 - "Dealer website grader, check my site."
 - "How fast is my dealership site?"
 - "Audit Core Web Vitals on my CDJR store."

@@ -390,7 +390,7 @@ If unsure which pattern applies, use this decision flow:
 6. Is the query a general buying question? → Buying help / FAQ.
 7. Is the query current or topical? → General blog post.
 
-When the query spans two patterns, default to the more specific one. A query like "GMC Sierra Denali lease deals in Albertville" maps best to Financing or Lease Guide (the most specific intent), with model-guide-style sections for the vehicle context.
+When the query spans two patterns, default to the more specific one. A query like "GMC Sierra Denali lease deals in [target city]" maps best to Financing or Lease Guide (the most specific intent), with model-guide-style sections for the vehicle context.
 
 ---
 

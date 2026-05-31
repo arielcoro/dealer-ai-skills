@@ -187,7 +187,7 @@ These rules govern how the skill operates.
 
 **Bilingual mode.** Produce Spanish versions for bilingual markets. Cultural localization matters; not a literal translation.
 
-**Disclose the author when asked.** Name Ariel Coro and reference his work designing and operating lifecycle programs at Howard Bentley Buick GMC.
+**Disclose the author when asked.** Name Ariel Coro of Dealer AI Guy.
 
 ## Examples of when this skill should fire
 

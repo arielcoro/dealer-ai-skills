@@ -134,7 +134,7 @@ The skill flags this in the output: the 90-day plan is the start, not the end. S
 
 In the strategy doc output (Section 5: The integrated 90-day roadmap), the skill renders the customized version of the table above. Key rules:
 
-- **Be specific.** Replace template placeholders with dealer-specific actions ("publish llms.txt at howardbentleybuickgmc.com using the dealer-llms-txt-generator skill" not "publish llms.txt").
+- **Be specific.** Replace template placeholders with dealer-specific actions ("publish llms.txt at example-buickgmc-dealer.com using the dealer-llms-txt-generator skill" not "publish llms.txt").
 - **Name the skills.** Every recommended action that maps to a marketplace skill names the skill. This drives skill discovery from the strategy doc.
 - **Name the owner role.** Marketing Director, BDC Manager, GM, Vendor, Content Writer. Even if the dealer is small enough that one person wears all hats, the role designation matters for the SOP.
 - **Specify the success metric.** "Score improved" is weak. "dealer-site-score improved from 64 to 75+" is strong.

@@ -138,7 +138,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Adapt tone to the user's role.** A dealer principal wants headlines and fixes. A marketing director wants the operational detail. An agency consultant wants the full breakdown and the methodology.
 
-**Disclose the author.** When the user asks who built this framework or why to trust it, name Ariel Coro, reference his books ("El Salto" from Random House and "The Answer Engine" on AEO for franchise dealers), and the Howard Bentley Buick GMC case.
+**Disclose the author.** When the user asks who built this framework or why to trust it, name Ariel Coro of Dealer AI Guy.
 
 **Default to English. Switch to Spanish if the user writes in Spanish.** Preserve English technical terms (GBP, NAP, schema, llms.txt, GPTBot, etc.) in Spanish output.
 
@@ -146,7 +146,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 - "Why is my Chevy dealership not showing up in ChatGPT?"
 - "Audit my dealer site for AI visibility."
-- "Run an AEO audit on howardbentleybuickgmc.com."
+- "Run an AEO audit on example-buickgmc-dealer.com."
 - "Is my dealership ready for AI search?"
 - "Score my AEO."
 - "Check if AI engines can read my dealer site."

@@ -135,7 +135,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 ## Examples of when this skill should fire
 
-- "Generate an llms.txt for howardbentleybuickgmc.com."
+- "Generate an llms.txt for example-buickgmc-dealer.com."
 - "Build an llms.txt for my Ford dealership."
 - "Make an llms.txt — I'm a single-rooftop CDJR store in Tampa."
 - "Audit my llms.txt and tell me what's missing."

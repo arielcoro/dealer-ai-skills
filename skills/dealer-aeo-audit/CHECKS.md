@@ -2,7 +2,7 @@
 
 Specific commands, queries, and validation steps for each of the 30 checks in `REFERENCE.md`. SKILL.md references this file. Use the commands here when running the audit so users see the exact verification, not a vague description.
 
-Replace `[domain]` with the dealer's primary domain (e.g., `howardbentleybuickgmc.com`). Replace `[brand]`, `[city]`, `[model]`, `[zip]` with the dealer's specifics.
+Replace `[domain]` with the dealer's primary domain (e.g., `example-buickgmc-dealer.com`). Replace `[brand]`, `[city]`, `[model]`, `[zip]` with the dealer's specifics.
 
 ---
 
@@ -80,8 +80,8 @@ curl -sL https://[domain]/llms.txt
 
 **Pass.** The file lists 20 to 50 high-value pages with one-line descriptions. Structure looks like:
 ```
-# Howard Bentley Buick GMC
-Franchise GMC and Buick dealer in Albertville, AL.
+# Example Dealership
+Franchise GMC and Buick dealer in [City, State].
 
 ## Inventory
 - /new-vehicles/: Current new GMC and Buick inventory

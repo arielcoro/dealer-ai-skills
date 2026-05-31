@@ -69,45 +69,45 @@ Replace every `[bracketed]` placeholder with dealership-specific information. De
 ### Example 1. Single-rooftop franchise (GM brands)
 
 ```
-# Howard Bentley Buick GMC
+# Example Buick GMC Dealer
 
-> Franchise GMC and Buick dealer in Albertville, Alabama. Top 5 nationally ranked GMC dealer for 2025.
+> Franchise GMC and Buick dealer in [City, State]. [Differentiation].
 
-Family-owned franchise serving north Alabama with new GMC and Buick inventory, certified pre-owned vehicles, factory-trained service, and OEM parts. Recognized as a top 5 GMC dealer nationally in 2025 with 3,955 deliveries.
+Family-owned franchise serving [region] with new GMC and Buick inventory, certified pre-owned vehicles, factory-trained service, and OEM parts.
 
 ## Inventory
-- [/new-vehicles/](https://howardbentleybuickgmc.com/new-vehicles/): Current new GMC and Buick inventory updated daily
-- [/used-vehicles/](https://howardbentleybuickgmc.com/used-vehicles/): Pre-owned inventory across all makes
-- [/certified-pre-owned/](https://howardbentleybuickgmc.com/certified-pre-owned/): GMC and Buick Certified Pre-Owned vehicles
+- [/new-vehicles/](https://example-buickgmc-dealer.com/new-vehicles/): Current new GMC and Buick inventory updated daily
+- [/used-vehicles/](https://example-buickgmc-dealer.com/used-vehicles/): Pre-owned inventory across all makes
+- [/certified-pre-owned/](https://example-buickgmc-dealer.com/certified-pre-owned/): GMC and Buick Certified Pre-Owned vehicles
 
 ## Brands and models
-- [/gmc/](https://howardbentleybuickgmc.com/gmc/): GMC lineup at Howard Bentley
-- [/buick/](https://howardbentleybuickgmc.com/buick/): Buick lineup at Howard Bentley
-- [/models/gmc-sierra/](https://howardbentleybuickgmc.com/models/gmc-sierra/): GMC Sierra inventory, trims, and pricing
-- [/models/gmc-yukon/](https://howardbentleybuickgmc.com/models/gmc-yukon/): GMC Yukon inventory, trims, and pricing
+- [/gmc/](https://example-buickgmc-dealer.com/gmc/): GMC lineup at Example Dealer
+- [/buick/](https://example-buickgmc-dealer.com/buick/): Buick lineup at Example Dealer
+- [/models/gmc-sierra/](https://example-buickgmc-dealer.com/models/gmc-sierra/): GMC Sierra inventory, trims, and pricing
+- [/models/gmc-yukon/](https://example-buickgmc-dealer.com/models/gmc-yukon/): GMC Yukon inventory, trims, and pricing
 
 ## Service
-- [/service/](https://howardbentleybuickgmc.com/service/): GMC and Buick certified service, Monday through Friday 7am to 6pm
-- [/service-specials/](https://howardbentleybuickgmc.com/service-specials/): Current service coupons and seasonal promotions
-- [/parts/](https://howardbentleybuickgmc.com/parts/): OEM GM parts ordering
-- [/recalls/](https://howardbentleybuickgmc.com/recalls/): Active GM recalls and free recall service scheduling
-- [/schedule-service/](https://howardbentleybuickgmc.com/schedule-service/): Online service appointment scheduling
+- [/service/](https://example-buickgmc-dealer.com/service/): GMC and Buick certified service, Monday through Friday 7am to 6pm
+- [/service-specials/](https://example-buickgmc-dealer.com/service-specials/): Current service coupons and seasonal promotions
+- [/parts/](https://example-buickgmc-dealer.com/parts/): OEM GM parts ordering
+- [/recalls/](https://example-buickgmc-dealer.com/recalls/): Active GM recalls and free recall service scheduling
+- [/schedule-service/](https://example-buickgmc-dealer.com/schedule-service/): Online service appointment scheduling
 
 ## Finance
-- [/finance/](https://howardbentleybuickgmc.com/finance/): Financing options for new and used vehicles
-- [/credit-application/](https://howardbentleybuickgmc.com/credit-application/): Secure online credit application
-- [/lease/](https://howardbentleybuickgmc.com/lease/): GMC and Buick lease offers
-- [/trade-in/](https://howardbentleybuickgmc.com/trade-in/): Online trade-in valuation and in-person appraisal
+- [/finance/](https://example-buickgmc-dealer.com/finance/): Financing options for new and used vehicles
+- [/credit-application/](https://example-buickgmc-dealer.com/credit-application/): Secure online credit application
+- [/lease/](https://example-buickgmc-dealer.com/lease/): GMC and Buick lease offers
+- [/trade-in/](https://example-buickgmc-dealer.com/trade-in/): Online trade-in valuation and in-person appraisal
 
 ## About
-- [/about/](https://howardbentleybuickgmc.com/about/): About Howard Bentley Buick GMC
-- [/staff/](https://howardbentleybuickgmc.com/staff/): Sales, service, finance, and management team
-- [/hours-and-directions/](https://howardbentleybuickgmc.com/hours-and-directions/): Hours, address, and directions
-- [/contact/](https://howardbentleybuickgmc.com/contact/): Contact forms and department phone numbers
+- [/about/](https://example-buickgmc-dealer.com/about/): About Example Buick GMC Dealer
+- [/staff/](https://example-buickgmc-dealer.com/staff/): Sales, service, finance, and management team
+- [/hours-and-directions/](https://example-buickgmc-dealer.com/hours-and-directions/): Hours, address, and directions
+- [/contact/](https://example-buickgmc-dealer.com/contact/): Contact forms and department phone numbers
 
 ## Reputation
-- [/reviews/](https://howardbentleybuickgmc.com/reviews/): Customer reviews from Google and DealerRater
-- [/awards/](https://howardbentleybuickgmc.com/awards/): OEM awards including Top 5 GMC ranking 2025
+- [/reviews/](https://example-buickgmc-dealer.com/reviews/): Customer reviews from Google and DealerRater
+- [/awards/](https://example-buickgmc-dealer.com/awards/): OEM awards including Top 5 GMC ranking 2025
 ```
 
 ### Example 2. Multi-rooftop dealer group

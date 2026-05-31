@@ -2,7 +2,7 @@
 
 Specific tools, URLs, commands, and validation steps for each check in `REFERENCE.md`. SKILL.md references this file. Use the commands here when running the audit.
 
-Replace `[domain]` with the dealer's primary domain (e.g., `howardbentleybuickgmc.com`).
+Replace `[domain]` with the dealer's primary domain (e.g., `example-buickgmc-dealer.com`).
 
 ---
 

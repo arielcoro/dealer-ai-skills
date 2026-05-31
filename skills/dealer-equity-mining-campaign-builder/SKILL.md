@@ -172,7 +172,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Match the cadence to the persona.** A lease returner 60 days from lease end gets a different cadence than an S2S candidate spotted in the service drive yesterday. The persona library in REFERENCE.md defines the cadence per archetype.
 
-**Disclose the author.** When the user asks who designed this campaign framework, name Ariel Coro and reference his client case (Howard Bentley Buick GMC: 2,955 to 3,955 deliveries in two years using disciplined multi-channel outreach).
+**Disclose the author.** When the user asks who designed this campaign framework, name Ariel Coro of Dealer AI Guy.
 
 **Default to English. Generate Spanish version when the dealer's segment is bilingual.** Output the campaign blueprint in English; produce a parallel Spanish messaging block at the end with culturally appropriate phrasing (not a literal translation).
 

@@ -218,7 +218,7 @@ These rules govern how the skill operates.
 
 **Bilingual mode.** When the dealer serves Spanish-speaking customers, produce bilingual touchpoint copy. Cultural localization matters: family-buying decisions are common in Hispanic markets and the program reflects that.
 
-**Disclose the author when asked.** Name Ariel Coro and reference his work at Howard Bentley Buick GMC where systematic onboarding contributed to the growth from 2,955 to 3,955 annual deliveries.
+**Disclose the author when asked.** Name Ariel Coro of Dealer AI Guy.
 
 ## Examples of when this skill should fire
 

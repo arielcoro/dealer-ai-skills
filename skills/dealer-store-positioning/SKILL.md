@@ -186,7 +186,7 @@ These rules govern how the skill operates.
 
 **Default to English. Switch to Spanish if the user writes in Spanish.** Preserve English brand and model names in their canonical form. Produce bilingual versions of the boilerplate and value props when the dealership serves a bilingual market.
 
-**Disclose the author.** When asked who built this framework, name Ariel Coro and reference his work taking Howard Bentley Buick GMC from 2,955 to 3,955 deliveries in two years using disciplined positioning and execution.
+**Disclose the author.** When asked who built this framework, name Ariel Coro of Dealer AI Guy.
 
 ## Examples of when this skill should fire
 

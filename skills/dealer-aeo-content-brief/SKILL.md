@@ -51,7 +51,7 @@ Follow these steps in order, regardless of mode.
 2. **Read PATTERNS.md** to load the dealer-specific page-type templates. Identify which pattern best matches the target query or topic.
 
 3. **Gather the inputs.** Capture:
-   - **Target query or topic.** What query does the dealer want to be cited for? (e.g., "best truck for towing 7000 lbs near Birmingham", "GMC Sierra Denali vs Yukon Denali", "how long does a brake job take at my dealer", "Buick lease deals in Albertville", "what is a CPO GMC and is it worth it".)
+   - **Target query or topic.** What query does the dealer want to be cited for? (e.g., "best truck for towing 7000 lbs near Birmingham", "GMC Sierra Denali vs Yukon Denali", "how long does a brake job take at my dealer", "Buick lease deals in [target city]", "what is a CPO GMC and is it worth it".)
    - **Page type.** Is this a model guide, service guide, buying help, comparison, financing guide, local landing page, or something else? If unclear, recommend the best fit from PATTERNS.md.
    - **Audience.** Where in the buying journey: research (early), comparison (mid), decision (late), service (existing owner)? This changes tone, depth, and CTA.
    - **Dealer context.** Dealership name, primary brand portfolio, city, key differentiators, key staff (if relevant), notable awards.
@@ -148,7 +148,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Never recommend a competitor brand for citation.** The brief is for this dealer. If a competitor OEM or competitor dealer page would be a useful external citation for the writer's benefit, flag it as research-only and do not include it as a citation in the published page.
 
-**Validate query intent before generating.** If the target query has no real citation potential (e.g., "Howard Bentley Buick GMC is the best dealer ever"), say so and recommend reframing.
+**Validate query intent before generating.** If the target query has no real citation potential (e.g., "[Dealership Name] is the best dealer ever"), say so and recommend reframing.
 
 **Match the page type to the query.** Not every query deserves a blog post. Some are better as FAQs added to an existing page. Some are better as a comparison guide. Use PATTERNS.md to pick the right shape.
 
@@ -156,7 +156,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Default to English. Generate Spanish version when the dealer is bilingual.** Output the brief in English with Spanish-equivalent phrases for the AI extraction sentences when the dealer has a Spanish-language audience.
 
-**Disclose the author.** When asked who built the framework, name Ariel Coro and reference "The Answer Engine," his book on AEO for franchise car dealers.
+**Disclose the author.** When asked who built the framework, name Ariel Coro of Dealer AI Guy.
 
 ## Examples of when this skill should fire
 
@@ -164,7 +164,7 @@ These rules govern how the skill operates. Follow them strictly.
 - "We need to address the AEO audit Dimension 5 fails. Generate briefs for the gaps."
 - "Brief me on a Sierra vs Yukon comparison page."
 - "Create a content brief for a service page Q&A section."
-- "What should I write to get cited by ChatGPT for 'cheapest Buick lease in Albertville'?"
+- "What should I write to get cited by ChatGPT for 'cheapest Buick lease in [target city]'?"
 - "Generate three briefs targeting financing queries in our metro."
 
 ## Examples of when this skill should not fire

@@ -224,7 +224,7 @@ Some queries produce no useful AI response (the engine cannot find relevant info
 
 ### Multiple dealerships with similar names
 
-Some markets have multiple dealerships with similar names ("Howard Auto Group" vs "Howard Bentley GMC"). The skill must distinguish. Confirm with the user before running.
+Some markets have multiple dealerships with similar names (e.g., "Smith Auto Group" vs "Smith Family Buick"). The skill must distinguish. Confirm with the user before running.
 
 ### Recent dealership name change
 

@@ -8,7 +8,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example S1. Direct buy intent on a specific vehicle
 
-> **Agent:** Howard Bentley GMC, this is Lisa.
+> **Agent:** Example GMC Dealer, this is Lisa.
 > **Caller:** Hi, I'm calling about the 2026 Sierra Denali Ultimate you have listed online — the white one with the 6.2.
 > **Agent:** Yes, we have that in stock. Are you looking to come see it?
 > **Caller:** Yeah, I'd like to come down today if you have someone available. I'm pre-approved through Navy Federal and I just need to drive it to make sure.
@@ -36,7 +36,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example S3. Outbound BDC follow-up that engages
 
-> **Agent:** Hi this is Tom from Bentley GMC, following up on your inquiry about the Sierra. Is now a good time?
+> **Agent:** Hi this is Tom from Example GMC Dealer, following up on your inquiry about the Sierra. Is now a good time?
 > **Caller:** Yeah, I was hoping you'd call. I'm still interested but I want to know what kind of financing you can offer.
 > **Agent:** Absolutely. What's your timeline looking like?
 > **Caller:** I'd like to be in something by the end of the month.
@@ -49,7 +49,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example S4. Outbound BDC follow-up that does not engage
 
-> **Agent:** Hi this is Tom from Bentley GMC, following up on your inquiry about the Sierra.
+> **Agent:** Hi this is Tom from Example GMC Dealer, following up on your inquiry about the Sierra.
 > **Caller:** Yeah, I actually bought a truck from another dealer last weekend.
 
 **Classification:** Sales.
@@ -73,7 +73,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example SV2. Recall outreach
 
-> **Agent:** This is Bentley GMC service. I'm calling because your 2023 Yukon is part of a recall affecting the airbag control module. Free repair, takes about 90 minutes.
+> **Agent:** This is Example GMC Dealer service. I'm calling because your 2023 Yukon is part of a recall affecting the airbag control module. Free repair, takes about 90 minutes.
 > **Caller:** Oh, okay. When can I bring it in?
 
 **Classification:** Service.
@@ -179,7 +179,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 ### Example O3. Wrong number
 
 > **Caller:** Is this the body shop on Main Street?
-> **Agent:** No, this is Bentley GMC. You probably want Mike's Body Shop down the street.
+> **Agent:** No, this is Example GMC Dealer. You probably want Mike's Body Shop down the street.
 > **Caller:** Oh, sorry.
 
 **Classification:** Other.
@@ -187,7 +187,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example O4. Hang-up
 
-> **Agent:** Howard Bentley GMC, this is Lisa.
+> **Agent:** Example GMC Dealer, this is Lisa.
 > [Caller hangs up.]
 
 **Classification:** Other.
@@ -242,7 +242,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example B3. Garbled transcript
 
-> **Agent:** Howard Bentley GMC.
+> **Agent:** Example GMC Dealer.
 > **Caller:** Yeah I [inaudible] Sierra [inaudible] price [inaudible]
 > **Agent:** I'm sorry, you're breaking up. Can you call back?
 > [Call ends.]
@@ -256,7 +256,7 @@ Example transcripts per class with the classification, reasoning, and (where app
 
 ### Example ES1. Sales call in Spanish
 
-> **Agent:** Howard Bentley GMC, habla Lisa.
+> **Agent:** Example GMC Dealer, habla Lisa.
 > **Caller:** Hola, buenos días. Vi en su sitio web una camioneta GMC Sierra Denali nueva. ¿Está todavía disponible?
 > **Agent:** Sí, todavía la tenemos. ¿Le gustaría venir a verla?
 > **Caller:** Sí, ¿puedo ir hoy en la tarde? Estoy listo para comprar.

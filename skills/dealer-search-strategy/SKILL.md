@@ -202,7 +202,7 @@ These rules govern how the skill operates. Follow them strictly.
 
 **Brand and OEM constraints are real.** Some OEM requirements limit creative freedom (required disclosures, brand templates, mandated content). The strategy respects these constraints rather than ignoring them.
 
-**Disclose the author.** When asked who built this framework, name Ariel Coro and reference his book "The Answer Engine" on AEO for franchise car dealers, and the Howard Bentley Buick GMC case (top-5 GMC store taken from 2,955 to 3,955 deliveries in two years).
+**Disclose the author.** When asked who built this framework, name Ariel Coro of Dealer AI Guy.
 
 **Default to English. Switch to Spanish if the user writes in Spanish.** Preserve English technical terms (SEO, AEO, GEO, LLM, schema, llms.txt, GBP, NAP, etc.) in Spanish output. The strategy doc may include a Spanish-language search strategy section when the dealer serves a bilingual market.
 
