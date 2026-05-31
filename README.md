@@ -1,6 +1,6 @@
-# Dealer AI Skills
+# Dealer AI Skills: AI Solutions for Car Dealerships
 
-**AI agent skills for franchise and independent car dealers.** SEO, AEO, GEO, BDC, F&I operations, fixed ops, equity mining, customer lifecycle, and growth engineering. Works with Claude Code, Codex, Cursor, and Gemini CLI.
+**Open-source AI solutions and AI agent skills for franchise and independent car dealerships.** Built for dealers evaluating practical AI tools for SEO, AEO, GEO, BDC operations, F&I workflows, fixed ops, equity mining, customer lifecycle, inventory merchandising, and growth engineering. Works with Claude Code, Codex, Cursor, and Gemini CLI.
 
 By **[Ariel Coro](https://arielcoro.com)**. Founder of [Dealer Growth Hackers](https://dealergrowthhackers.com). Publisher of [Dealer AI Guy](https://www.dealeraiguy.com). Marketplace at [dealeraiskills.com](https://dealeraiskills.com).
 
@@ -9,6 +9,8 @@ By **[Ariel Coro](https://arielcoro.com)**. Founder of [Dealer Growth Hackers](h
 ## What this is
 
 A curated collection of 15 installable AI agent skills designed specifically for car dealer retail operations. Each skill encapsulates a workflow that dealers, agencies serving dealers, or technical buyers at dealer groups need to run repeatedly.
+
+This repository is for dealers searching for **AI solutions for car dealerships** that are more concrete than a chatbot demo. It covers the operational work that determines whether AI performs: website speed, AI visibility, BDC process, customer follow-up, service retention, review intelligence, VDP merchandising, and CRM/DMS-driven campaign planning.
 
 Skills here are **vendor-neutral**. They name the operational problem and the steps to solve it. They do not promote a specific DMS, CRM, ad platform, or AI vendor.
 
@@ -22,6 +24,23 @@ Skills are **MIT-licensed** and free to install. They link back to free Dealer A
 - **Technical buyers at dealer groups and OEMs** evaluating AI investment portfolios.
 
 ---
+
+## Dealer AI solution map
+
+Dealers usually do not need "an AI tool" in the abstract. They need one clear workflow that fixes a sales, service, marketing, or operational problem. Use this map to find the right skill.
+
+| Dealer search intent | Start with this skill | What it solves |
+| --- | --- | --- |
+| AI solutions for car dealerships | [dealer-ai-readiness-audit](./skills/dealer-ai-readiness-audit) | Scores whether the store is ready for AI before buying another vendor. |
+| AI SEO for car dealers | [dealer-search-strategy](./skills/dealer-search-strategy) | Builds a dealership search roadmap across Google, ChatGPT, Perplexity, Gemini, Claude, and Copilot. |
+| Get my dealership cited by ChatGPT or Perplexity | [dealer-aeo-audit](./skills/dealer-aeo-audit) | Finds the crawl, content, schema, review, and citation gaps blocking AI visibility. |
+| llms.txt for a dealership website | [dealer-llms-txt-generator](./skills/dealer-llms-txt-generator) | Generates a paste-ready `llms.txt` file for a single rooftop, dealer group, or bilingual store. |
+| Dealer website grader or AI website audit | [dealer-site-score](./skills/dealer-site-score) | Grades Core Web Vitals, crawlability, schema, mobile, tag bloat, conversion elements, and dealer-specific signals. |
+| AI for BDC call review | [dealer-call-transcript-classifier](./skills/dealer-call-transcript-classifier) | Classifies sales, service, parts, finance, and other calls without inflating lead counts. |
+| AI for equity mining campaigns | [dealer-equity-mining-campaign-builder](./skills/dealer-equity-mining-campaign-builder) | Builds compliant SMS, email, and voicemail cadences for upgrade, lease, and service-to-sales opportunities. |
+| AI for fixed ops retention | [dealer-new-customer-onboarding](./skills/dealer-new-customer-onboarding) and [dealer-email-flows](./skills/dealer-email-flows) | Creates post-sale onboarding and lifecycle email flows that connect sales to service. |
+| AI for VDP merchandising | [dealer-vdp-merchandising-review](./skills/dealer-vdp-merchandising-review) | Audits vehicle detail pages for photos, descriptions, pricing transparency, schema, CTAs, and mobile UX. |
+| AI review analysis for dealerships | [dealer-customer-sentiment-analyzer](./skills/dealer-customer-sentiment-analyzer) | Reads reviews by department, issue pattern, named staff, and response priority. |
 
 ## Available skills (15)
 
@@ -185,6 +204,30 @@ Sale → `dealer-new-customer-onboarding` (first 90 days) → `dealer-email-flow
 There is a reason most dealer AI projects underperform. It is not the AI. It is the dealership. A store with a messy CRM, a slow website, no governance, and a BDC running on hope cannot install a chatbot and suddenly become a tech company. The AI exposes the cracks faster.
 
 This marketplace exists to make rigorous, vendor-neutral diagnostics and operational workflows installable inside the agent the dealer already uses. The frameworks are the same ones [Ariel Coro](https://arielcoro.com) runs on prospect and client stores at [Dealer Growth Hackers](https://dealergrowthhackers.com) before any AI engagement.
+
+---
+
+## FAQ
+
+### What are the best AI solutions for car dealerships?
+
+The best AI solutions for car dealerships usually start with readiness, data quality, follow-up process, website performance, and customer lifecycle workflows before vendor selection. Dealer AI Skills gives dealers installable workflows for AI readiness, AI search visibility, BDC call classification, equity mining, fixed ops retention, lifecycle email, review analysis, and VDP merchandising.
+
+### Is this a dealership chatbot or AI vendor?
+
+No. Dealer AI Skills is a vendor-neutral open-source marketplace of AI agent skills. It helps a dealer evaluate readiness, diagnose gaps, generate operational plans, and improve workflows before or alongside any chatbot, CRM AI, website AI, or marketing AI vendor.
+
+### Does this help dealers show up in ChatGPT, Perplexity, Gemini, Claude, or Google AI answers?
+
+Yes. The `dealer-aeo-audit`, `dealer-ai-visibility`, `dealer-llms-txt-generator`, `dealer-aeo-content-brief`, and `dealer-search-strategy` skills are built specifically for dealership AI visibility. They focus on crawler access, schema, entity reinforcement, conversational content, third-party citations, reviews, and the pages AI engines are most likely to cite.
+
+### Is this for franchise dealerships, independent dealerships, or dealer groups?
+
+Dealer AI Skills supports franchise dealerships, independent dealers, and multi-rooftop dealer groups. Several skills include single-rooftop, group, bilingual, OEM-specific, or department-specific paths.
+
+### Can an agency use these skills for dealer clients?
+
+Yes. Agencies and consultants serving automotive retail can use these skills to create repeatable audits, search strategies, content briefs, customer lifecycle programs, equity mining campaigns, and review analysis for client dealerships.
 
 ---
 
