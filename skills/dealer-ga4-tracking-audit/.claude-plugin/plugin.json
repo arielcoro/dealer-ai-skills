@@ -1,0 +1,29 @@
+{
+  "name": "dealer-ga4-tracking-audit",
+  "version": "1.0.0",
+  "description": "Audit a car dealership's GA4 and Google Ads conversion tracking stack end-to-end. 10-dimension, 100-point framework covering GA4 property configuration, event taxonomy and key events, audiences, Google Ads conversion tracking, GA4-to-Ads conversion import, Enhanced Conversions, offline conversion import from CRM, cross-domain tracking, GTM container hygiene, and server-side tagging with Consent Mode v2. Computes the reconciliation gap between GA4 reported conversions and CRM-confirmed leads as the headline deliverable. Dealer-specific failure patterns: Dealer.com/DealerOn/DealerInspire tag conflicts, third-party form vendors (DriveCentric, Fullpath), Cars.com/AutoTrader/Costco/TrueCar attribution gaps, CallRail/Invoca sync, CUDL/RouteOne finance app cross-domain, CDK/Reynolds DMS-to-CRM-to-Ads pipeline.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "ga4",
+    "google-analytics",
+    "conversion-tracking",
+    "google-ads",
+    "enhanced-conversions",
+    "offline-conversion-import",
+    "gtm",
+    "cross-domain-tracking",
+    "consent-mode",
+    "server-side-tagging",
+    "measurement",
+    "franchise-dealer"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "dealer-bilingual-seo",
+  "version": "1.0.0",
+  "description": "Build, audit, or remediate a Spanish-language SEO presence for a US car dealership targeting Hispanic buyers. Three modes: audit existing bilingual site (10-dimension, 100-point framework), design from scratch (architecture decision, content prioritization, 90-day roadmap), or remediate broken implementation (diagnostic decision tree, severity classification, remediation sequence). Covers hreflang for en-US and es-US, subfolder vs subdomain architecture, content tier prioritization, Spanish-language Vehicle/AutoDealer/FAQPage schema, dealer.com/DealerOn/DealerInspire platform specifics, OEM Spanish program integration (GM en Espanol, Ford Espanol, Toyota Espanol, etc.), Spanish GBP and review strategy, and US Hispanic auto buyer behavior. Defensible expertise from native Spanish speaker, former Univision tech expert, Cuban immigrant entrepreneur.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "bilingual-seo",
+    "spanish-seo",
+    "hispanic-marketing",
+    "hreflang",
+    "multilingual-website",
+    "local-seo",
+    "hispanic-auto-buyer",
+    "franchise-dealer"
+  ]
+}

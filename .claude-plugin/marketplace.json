@@ -364,6 +364,46 @@
       "homepage": "https://dealeraiskills.com",
       "category": "automotive-retail",
       "keywords": ["car-dealer", "automotive-retail", "dealership", "cta-audit", "call-to-action", "conversion-optimization", "mobile-ux", "click-to-call", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-gbp-audit",
+      "source": "./skills/dealer-gbp-audit",
+      "description": "Audit a car dealership's Google Business Profile (GBP) for local SEO and local pack performance. 10-dimension, 100-point framework covering primary category accuracy, secondary categories, NAP consistency, hours, services list, attributes, photos and visual freshness, posts, Q&A management, and review signal plus response discipline. Single-rooftop default with multi-rooftop dealer-group consistency overlay (additional 25-point scale). Mode A: guided audit with manager access. Mode B: public-search audit for competitor and prospect teardowns.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "gbp", "google-business-profile", "google-my-business", "local-seo", "local-pack", "google-maps", "nap", "review-management", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-bilingual-seo",
+      "source": "./skills/dealer-bilingual-seo",
+      "description": "Build, audit, or remediate a Spanish-language SEO presence for a US car dealership targeting Hispanic buyers. Three modes: audit existing bilingual site (10-dimension, 100-point framework), design from scratch (architecture decision, content prioritization, 90-day roadmap), or remediate broken implementation (diagnostic decision tree, remediation sequence). Covers hreflang for en-US and es-US, subfolder vs subdomain architecture, content tier prioritization, Spanish-language Vehicle/AutoDealer/FAQPage schema, dealer.com/DealerOn/DealerInspire platform specifics, OEM Spanish program integration (GM en Espanol, Ford Espanol, Toyota Espanol), Spanish GBP and review strategy, and US Hispanic auto buyer behavior. Defensible expertise from native Spanish speaker, former Univision tech expert.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "bilingual-seo", "spanish-seo", "hispanic-marketing", "hreflang", "multilingual-website", "local-seo", "hispanic-auto-buyer", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-ga4-tracking-audit",
+      "source": "./skills/dealer-ga4-tracking-audit",
+      "description": "Audit a car dealership's GA4 and Google Ads conversion tracking stack end-to-end. 10-dimension, 100-point framework covering GA4 property configuration, event taxonomy and key events, audiences, Google Ads conversion tracking, GA4-to-Ads conversion import, Enhanced Conversions, offline conversion import from CRM, cross-domain tracking, GTM container hygiene, and server-side tagging plus Consent Mode v2. Computes the reconciliation gap between GA4 reported conversions and CRM-confirmed leads as the headline deliverable. Dealer-specific failure patterns: Dealer.com/DealerOn/DealerInspire tag conflicts, third-party form vendors, Cars.com/AutoTrader attribution gaps, CallRail/Invoca sync, CUDL/RouteOne finance app cross-domain, CDK/Reynolds DMS-to-CRM-to-Ads pipeline.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "ga4", "google-analytics", "conversion-tracking", "google-ads", "enhanced-conversions", "offline-conversion-import", "gtm", "cross-domain-tracking", "consent-mode", "server-side-tagging", "measurement", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-call-tracking-audit",
+      "source": "./skills/dealer-call-tracking-audit",
+      "description": "Audit a car dealership's call tracking platform configuration (CallRail, Invoca, Marchex) for attribution accuracy, conversation intelligence, and integration with Google Ads, GA4, and CRM. 10-dimension, 100-point framework covering platform deployment, number pool sizing, dynamic number insertion (DNI), source mapping and attribution, conversation intelligence (categorization, keyword spotting, scoring), Google Ads conversion sync, GA4 event sync, CRM integration, call routing and IVR, and recording/TCPA compliance. Computes the three-way reconciliation gap between platform totals, CRM phone-source leads, and Google Ads phone conversions. CallRail, Invoca, and Marchex platform-specific overlays.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "call-tracking", "callrail", "invoca", "marchex", "dni", "dynamic-number-insertion", "conversation-intelligence", "call-attribution", "phone-leads", "google-ads", "tcpa", "franchise-dealer"]
     }
   ]
 }

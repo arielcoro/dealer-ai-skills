@@ -1,0 +1,29 @@
+{
+  "name": "dealer-call-tracking-audit",
+  "version": "1.0.0",
+  "description": "Audit a car dealership's call tracking platform configuration (CallRail, Invoca, Marchex, others) for attribution accuracy, conversation intelligence, and integration with Google Ads, GA4, and the CRM. 10-dimension, 100-point framework covering platform deployment, number pool sizing, dynamic number insertion (DNI), source mapping and attribution, conversation intelligence (call categorization, keyword spotting, call scoring), Google Ads conversion sync, GA4 event sync, CRM integration, call routing and IVR, and recording/transcript/TCPA compliance. Computes the three-way reconciliation gap between platform totals, CRM phone-source leads, and Google Ads phone conversions as the dealer-principal headline. Includes CallRail, Invoca, and Marchex platform-specific overlays.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "call-tracking",
+    "callrail",
+    "invoca",
+    "marchex",
+    "dni",
+    "dynamic-number-insertion",
+    "conversation-intelligence",
+    "call-attribution",
+    "phone-leads",
+    "google-ads",
+    "tcpa",
+    "franchise-dealer"
+  ]
+}

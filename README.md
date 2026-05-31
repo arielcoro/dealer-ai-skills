@@ -23,7 +23,7 @@ Skills are **MIT-licensed** and free to install. They link back to free Dealer A
 
 ---
 
-## Available skills (17)
+## Available skills (21)
 
 ### Strategy and planning
 
@@ -64,6 +64,24 @@ Comprehensive traditional Google SEO audit. 10-dimension, 100-point framework co
 
 #### [dealer-cta-audit](./skills/dealer-cta-audit)
 Audit calls-to-action (CTAs) across dealer website pages for conversion effectiveness. Conversion-focused 6-dimension, 100-point framework: visibility and prominence, hierarchy (primary vs secondary), mobile UX (touch targets, click-to-call, sticky CTAs), copy quality, page-type fit, and tracking. Per-page CTA inventory plus scorecard, summary headline, per-page detail, and prioritized fix list with specific replacement copy.
+
+### Local presence
+
+#### [dealer-gbp-audit](./skills/dealer-gbp-audit)
+Audit a Google Business Profile (GBP) for local SEO and local pack performance. 10-dimension, 100-point framework covering primary category, secondary categories, NAP consistency, hours, services, attributes, photos, posts, Q&A, and review signal plus response discipline. Single-rooftop default. Multi-rooftop dealer-group consistency overlay scores cross-location standardization on an additional 25-point scale. Two modes: guided with manager access, or public-search for prospect and competitor teardowns.
+
+### Bilingual market
+
+#### [dealer-bilingual-seo](./skills/dealer-bilingual-seo)
+Build, audit, or remediate a Spanish-language SEO presence for a US car dealership targeting Hispanic buyers. Three modes: audit (10-dimension framework), design from scratch (90-day roadmap with architecture decision, content tier prioritization, hreflang spec), or remediate (diagnostic decision tree, severity classification, remediation sequence). Covers en-US/es-US hreflang, subfolder architecture, content tiering, Spanish schema, Dealer.com/DealerOn/DealerInspire platform specifics, OEM Spanish programs (GM en Español, Ford Español, Toyota Español), and US Hispanic auto buyer behavior. Defensible expertise: native Spanish speaker, former Univision tech expert.
+
+### Measurement and attribution
+
+#### [dealer-ga4-tracking-audit](./skills/dealer-ga4-tracking-audit)
+End-to-end audit of GA4 and Google Ads conversion tracking. 10-dimension, 100-point framework: GA4 property configuration, event taxonomy and key events, audiences, Google Ads conversion actions, GA4-to-Ads import, Enhanced Conversions, offline conversion import from CRM, cross-domain tracking, GTM hygiene, and server-side tagging with Consent Mode v2. Computes the reconciliation gap between GA4 reported conversions and CRM-confirmed leads (the headline number for dealer principals). Covers dealer-specific failure patterns: third-party form vendors, Cars.com/AutoTrader attribution gaps, CallRail sync, CUDL/RouteOne cross-domain, DMS-to-CRM-to-Ads pipeline.
+
+#### [dealer-call-tracking-audit](./skills/dealer-call-tracking-audit)
+Audit call tracking platform configuration for attribution, conversation intelligence, and integration with Google Ads, GA4, and CRM. 10-dimension, 100-point framework: platform deployment, number pool sizing, dynamic number insertion (DNI), source mapping, conversation intelligence (categorization, keyword spotting, scoring), Google Ads conversion sync, GA4 event sync, CRM integration, routing and IVR, and recording plus TCPA compliance. Three-way reconciliation: platform totals vs CRM phone-source leads vs Google Ads phone conversions. CallRail, Invoca, and Marchex platform-specific overlays.
 
 ### Inventory and merchandising
 

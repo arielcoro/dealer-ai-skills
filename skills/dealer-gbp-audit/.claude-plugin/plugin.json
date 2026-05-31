@@ -1,0 +1,26 @@
+{
+  "name": "dealer-gbp-audit",
+  "version": "1.0.0",
+  "description": "Audit a car dealership's Google Business Profile (GBP) for local SEO and local pack performance. 10-dimension, 100-point framework covering primary category accuracy, secondary categories, NAP consistency, hours, services, attributes, photos, posts, Q&A, and review signal plus response discipline. Single-rooftop default with multi-rooftop dealer-group consistency overlay (additional 25-point scale). Mode A: guided audit with manager access. Mode B: public-search audit for competitor or prospect teardowns.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "gbp",
+    "google-business-profile",
+    "google-my-business",
+    "local-seo",
+    "local-pack",
+    "google-maps",
+    "nap",
+    "review-management",
+    "franchise-dealer"
+  ]
+}
