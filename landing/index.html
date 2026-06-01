@@ -497,15 +497,15 @@
 
   <div class="install-stack" id="install">
     <div class="install-row">
-      <span class="label">Universal</span>
-      <code>npx skills add arielcoro/dealer-ai-skills</code>
-    </div>
-    <div class="install-row">
       <span class="label">Claude Code</span>
       <code>/plugin marketplace add arielcoro/dealer-ai-skills</code>
     </div>
+    <div class="install-row">
+      <span class="label">Other agents</span>
+      <code>git clone https://github.com/arielcoro/dealer-ai-skills.git</code>
+    </div>
   </div>
-  <p style="font-size: 13px; color: var(--muted); margin-top: 8px;">Installs the marketplace for Claude Code, Codex, Cursor, Gemini CLI, and other agent-skill compatible tools.</p>
+  <p style="font-size: 13px; color: var(--muted); margin-top: 8px;">Plugin commands run in <strong>Claude Code CLI</strong> and <strong>Claude Code Desktop</strong>. They do not run in Cowork or claude.ai chat. For Codex, Cursor, Cline, Gemini CLI, or other Agent Skills-compatible agents, clone the repo and copy the skill folder you want into the agent's skills directory.</p>
 
   <div style="display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap;">
     <a class="btn primary" style="background: var(--ink); color: white; padding: 11px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; border: 1px solid var(--ink);" href="https://github.com/arielcoro/dealer-ai-skills">View on GitHub</a>
@@ -1036,28 +1036,27 @@
 
 <section>
   <h3>Install</h3>
-  <h2>Three paths, two minutes each</h2>
+  <h2>Two paths, two minutes each</h2>
+
+  <p style="font-size: 14px; color: var(--muted); margin: 4px 0 24px; max-width: 720px;">
+    <strong>Where these commands run.</strong> Plugin marketplace commands run inside <strong>Claude Code CLI</strong> or <strong>Claude Code Desktop</strong>. They do not run in Cowork mode, the claude.ai chat interface, or other Anthropic web products. If you do not have Claude Code installed, install it from <a href="https://docs.claude.com/en/docs/claude-code" style="color: var(--accent);">docs.claude.com/claude-code</a>. Users on other agents (Codex, Cursor, Cline, Gemini CLI, Windsurf) should use the manual install path on the right.
+  </p>
 
   <div class="grid cols-2">
     <div class="skill-card">
-      <h4>Universal (npx skills)</h4>
-      <div class="install-line">npx skills add arielcoro/dealer-ai-skills</div>
-      <p style="font-size: 14px; color: var(--muted);">Works across Claude Code, Codex, Cursor, Gemini CLI, and other agent-skill compatible tools.</p>
-    </div>
-    <div class="skill-card">
-      <h4>Claude Code plugin</h4>
+      <h4>Claude Code plugin marketplace (recommended)</h4>
       <div class="install-line">/plugin marketplace add arielcoro/dealer-ai-skills</div>
       <div class="install-line">/plugin install dealer-ai-readiness-audit@dealer-ai-skills</div>
-      <p style="font-size: 14px; color: var(--muted);">Activates automatically when relevant phrases come up in conversation.</p>
+      <p style="font-size: 14px; color: var(--muted);">Runs inside Claude Code CLI and Claude Code Desktop. Skills activate from natural language once installed.</p>
     </div>
     <div class="skill-card">
-      <h4>Manual install</h4>
+      <h4>Manual install (any Agent Skills-compatible agent)</h4>
       <div class="install-line">git clone https://github.com/arielcoro/dealer-ai-skills.git</div>
       <div class="install-line">cp -r dealer-ai-skills/skills/dealer-ai-readiness-audit ~/.claude/skills/</div>
-      <p style="font-size: 14px; color: var(--muted);">Drop the skill folder into any agent's skills directory.</p>
+      <p style="font-size: 14px; color: var(--muted);">Drop the skill folder into Claude Code, Codex, Cursor, Cline, Gemini CLI, Windsurf, or any agent that supports the Agent Skills spec.</p>
     </div>
     <div class="skill-card">
-      <h4>Plain English</h4>
+      <h4>Plain English (once installed)</h4>
       <p>Tell your agent any of these:</p>
       <ul style="font-size: 14px; color: var(--ink); padding-left: 18px; margin: 8px 0;">
         <li>"Score my dealership on AI readiness."</li>
@@ -1065,6 +1064,11 @@
         <li>"Is my store AI-ready before we buy this BDC?"</li>
       </ul>
       <p style="font-size: 14px; color: var(--muted);">The skill activates from natural language once installed.</p>
+    </div>
+    <div class="skill-card">
+      <h4>Don't have Claude Code yet?</h4>
+      <p style="font-size: 14px;">Get it at <a href="https://docs.claude.com/en/docs/claude-code" style="color: var(--accent);">docs.claude.com/claude-code</a>. Free to install, runs on macOS, Windows, and Linux. CLI and Desktop both support the plugin marketplace flow above.</p>
+      <p style="font-size: 13px; color: var(--muted); margin-top: 10px;">If you prefer not to install another tool, your agency or technical team can install Dealer AI Skills on their environment and run the diagnostics for you.</p>
     </div>
   </div>
 </section>
