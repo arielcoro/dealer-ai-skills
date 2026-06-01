@@ -88,14 +88,27 @@
     background: var(--accent);
     display: inline-block;
   }
-  .nav { display: flex; gap: 28px; }
+  .nav {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .nav a {
     color: var(--muted);
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
+    white-space: nowrap;
   }
   .nav a:hover { color: var(--ink); }
+
+  @media (max-width: 640px) {
+    .nav { gap: 16px; }
+    .nav a { font-size: 14px; }
+    .brand { font-size: 18px; }
+    .brand-dot { width: 14px; height: 14px; }
+  }
 
   .hero {
     padding: 18px 0 40px;
