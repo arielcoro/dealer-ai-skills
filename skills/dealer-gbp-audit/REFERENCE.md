@@ -16,8 +16,8 @@ The primary category is the single highest-leverage local SEO setting on a GBP. 
 - 0: Primary category is wrong, generic, or unrelated (e.g., "Auto repair shop" on a sales rooftop, or "Used car dealer" on a franchise new-car rooftop).
 
 ### 1.2 Category not stuffed in the business name (3 pts)
-- 3: Business name is the legal entity (e.g., "Howard Bentley Buick GMC"). No appended keywords.
-- 0: Business name includes appended keywords like "Buick GMC Dealer Albertville" or "#1 Volume Chevy Dealer." This is a Google policy violation.
+- 3: Business name is the legal entity (e.g., "Smith Family Buick GMC"). No appended keywords.
+- 0: Business name includes appended keywords like "Buick GMC Dealer Springfield" or "#1 Volume Chevy Dealer." This is a Google policy violation.
 
 ### 1.3 Category aligned with OEM directory and website (3 pts)
 - 3: OEM dealer directory (e.g., gmc.com/dealers, ford.com/dealers) and the dealer website footer describe the dealership in a way consistent with the primary category.
@@ -55,7 +55,7 @@ Name, Address, Phone. The classic local SEO trifecta. Inconsistency suppresses l
 
 ### 3.1 Business name matches legal entity and website (4 pts)
 - 4: GBP name exactly matches the website header, footer, and legal entity.
-- 2: Minor variation (e.g., "Howard Bentley Buick-GMC" vs "Howard Bentley Buick GMC").
+- 2: Minor variation (e.g., "Smith Family Buick-GMC" vs "Smith Family Buick GMC").
 - 0: Major variation, keyword stuffing, or mismatch with OEM directory.
 
 ### 3.2 Address matches website, OEM directory, and major citation sources (3 pts)

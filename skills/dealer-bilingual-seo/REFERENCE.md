@@ -139,7 +139,7 @@ These pages support the buyer journey but are not top-of-funnel.
 - Third-party embedded iframes (KBB widgets, etc.) that cannot be translated
 - OEM-supplied warranty boilerplate that is OEM-legal in English
 
-**Decision rule:** translate where the local intent in Spanish exceeds the operational cost. Spanish-language buyers searching for "Buick GMC en Albertville" should land on a Spanish page that ranks. Spanish-language buyers searching for "Buick GMC OnStar terms" can land on the English page; the regulatory copy must be English anyway.
+**Decision rule:** translate where the local intent in Spanish exceeds the operational cost. Spanish-language buyers searching for "concesionario Buick GMC en [city]" should land on a Spanish page that ranks. Spanish-language buyers searching for "Buick GMC OnStar terms" can land on the English page; the regulatory copy must be English anyway.
 
 ---
 

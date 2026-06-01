@@ -148,8 +148,8 @@ For JS-injected H1s (Dealer.com pattern), verify in browser DevTools or Screamin
 For each sampled page, capture title, H1, and URL slug. Check that all three contain the same primary keyword.
 
 Example of misalignment:
-- URL: `/new-2026-gmc-sierra-denali-albertville-al`
-- Title: "Bob Smith Buick GMC | Albertville Alabama Dealership"
+- URL: `/new-2026-gmc-sierra-denali-springfield-il`
+- Title: "Bob Smith Buick GMC | Springfield Illinois Dealership"
 - H1: "Welcome to Bob Smith Buick GMC"
 
 URL targets Sierra Denali, but title and H1 are generic dealership pages. This is misaligned and should not be a VDP.

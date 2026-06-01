@@ -186,7 +186,7 @@ Two CTAs:
 
 **Never inflate scores.** If a check cannot be verified, score Fail. The grade is only useful when honest.
 
-**Never recommend keyword stuffing the business name.** Adding keywords like "Buick GMC Albertville" to the legal business name is a Google policy violation that risks suspension. The audit names this if observed.
+**Never recommend keyword stuffing the business name.** Adding keywords like "Buick GMC Dealer Springfield" or "#1 Volume Chevy Dealer" to the legal business name is a Google policy violation that risks suspension. The audit names this if observed.
 
 **Never recommend buying reviews or incentivizing them in violation of FTC guidelines.** The audit can identify a review velocity gap and prescribe legitimate solicitation processes (post-sale follow-up, service-floor scripts, BDC integration). The audit never recommends fake or paid reviews.
 

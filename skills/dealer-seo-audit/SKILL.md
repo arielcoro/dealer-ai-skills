@@ -60,7 +60,7 @@ User provides one URL. Skill audits that page in full detail across all dimensio
 4. **Gather inputs.** Capture:
    - **Dealership name, primary domain, brand portfolio, city/state.**
    - **Audit scope.** Sample of pages (provide URLs) OR single-page deep dive (one URL).
-   - **Primary target queries.** What the dealer most wants to rank for (e.g., "GMC dealer Birmingham", "Sierra Denali Albertville", "Buick service near me").
+   - **Primary target queries.** What the dealer most wants to rank for (e.g., "GMC dealer [city]", "Sierra Denali [city]", "Buick service near me").
    - **Known issues or context.** Recent migrations, ranking drops, Google update concerns.
    - **Bilingual?** Does the dealer serve a Spanish-speaking audience? (Triggers hreflang audit.)
    - **Optional: Google Search Console access.** If available, the user can paste GSC data (top queries, coverage report, top pages) for richer analysis.

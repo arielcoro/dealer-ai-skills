@@ -286,7 +286,7 @@ Note the latest dealer-uploaded photo and the latest post per rooftop.
 
 ### G7. Duplicate listings
 
-Search Google Maps for the dealer's address and surrounding business names. Duplicate listings often appear with slightly different names (e.g., "Howard Bentley Buick GMC" and "Howard Bentley Buick" as separate listings). Also check OEM directory for the rooftop and compare to the GBP results.
+Search Google Maps for the dealer's address and surrounding business names. Duplicate listings often appear with slightly different names (e.g., "Smith Family Buick GMC" and "Smith Family Buick" as separate listings). Also check OEM directory for the rooftop and compare to the GBP results.
 
 To merge duplicates: Manager → Support → Suggest a merge, or file via the Business Profile Help Community.
 
