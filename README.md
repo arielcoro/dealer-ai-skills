@@ -141,11 +141,21 @@ A separate Digital PR skills marketplace is in planning under its own repo. Watc
 
 ## Install
 
-> **Where these commands run.** The `/plugin` commands below run in **Claude Code CLI** and **Claude Code Desktop**. They do not run in Cowork mode, the claude.ai chat interface, or other Anthropic web products. If you do not have Claude Code installed, get it at [docs.claude.com/claude-code](https://docs.claude.com/en/docs/claude-code) before running these commands. Non-Claude-Code paths (manual install) are listed below for users on other agents.
+Three paths, ordered by friction. Pick whichever fits your setup.
 
-### Option 1: Claude Code plugin marketplace (recommended)
+### Option 1: Just ask your agent (recommended for most users)
 
-Inside Claude Code CLI or Claude Code Desktop:
+Paste this into Claude Code, Cursor, Cline, Codex, Gemini CLI, Windsurf, Cowork, or any agent that can read a GitHub URL:
+
+```
+Install this: https://github.com/arielcoro/dealer-ai-skills
+```
+
+The agent inspects the marketplace, reads the skill structure, and installs the skills it needs. Works whether or not the agent's runtime supports the formal `/plugin` command. This is the fastest path for non-technical users and the most universal across agent platforms.
+
+### Option 2: Claude Code plugin marketplace (recommended for Claude Code users)
+
+If you are using Claude Code CLI or Claude Code Desktop and want the formal marketplace flow:
 
 ```bash
 /plugin marketplace add arielcoro/dealer-ai-skills
@@ -160,20 +170,20 @@ Replace `[skill-name]` with the skill you want. Examples:
 /plugin install dealer-search-strategy@dealer-ai-skills
 ```
 
-Each skill activates automatically when relevant phrases come up in conversation.
+Note: the `/plugin` commands run only in Claude Code CLI and Claude Code Desktop. They do not run in Cowork mode or the claude.ai chat interface. Use Option 1 in those environments.
 
-### Option 2: Direct skill copy (any agent that supports the Agent Skills spec)
+### Option 3: Manual install (for developers who want to read the source first)
 
 ```bash
 git clone https://github.com/arielcoro/dealer-ai-skills.git
 cp -r dealer-ai-skills/skills/[skill-name] ~/.claude/skills/
 ```
 
-Drop the skill folder into the skills directory of any agent that supports the Agent Skills spec (Claude Code, Codex, Cursor, Cline, Gemini CLI, Windsurf, etc.).
+Drop the skill folder into the skills directory of any agent that supports the Agent Skills spec (Claude Code, Codex, Cursor, Cline, Gemini CLI, Windsurf, etc.). Use this path if you want to audit the source before installing or if you want to fork a skill.
 
-### Option 3: Plain English (once installed)
+### Once installed: ask the agent natural-language questions
 
-After installing via Option 1 or Option 2, tell your agent things like:
+Whichever install path you used, the right skill activates from natural language. Try:
 
 - "Run the Dealer AI Readiness Audit on my store."
 - "Audit my dealer site for AEO."
@@ -183,8 +193,6 @@ After installing via Option 1 or Option 2, tell your agent things like:
 - "Classify these call transcripts and tell me how many sales calls."
 - "Design our 90-day new customer onboarding program."
 - "Build the lifecycle email flows for our dealership."
-
-The right skill activates from natural language once installed.
 
 ---
 
