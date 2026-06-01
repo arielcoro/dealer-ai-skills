@@ -404,6 +404,26 @@
       "homepage": "https://dealeraiskills.com",
       "category": "automotive-retail",
       "keywords": ["car-dealer", "automotive-retail", "dealership", "call-tracking", "callrail", "invoca", "marchex", "dni", "dynamic-number-insertion", "conversation-intelligence", "call-attribution", "phone-leads", "google-ads", "tcpa", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-ai-sentiment-monitor",
+      "source": "./skills/dealer-ai-sentiment-monitor",
+      "description": "Audit how AI search engines (ChatGPT, Perplexity, Gemini, Google AI Mode, Claude, Copilot, optional Grok) describe and characterize a car dealership. 6-dimension, 100-point framework covering tone, factual accuracy, strength framing, concern framing, competitive positioning, and hallucination plus stale-data risk. 25-prompt English standard set plus 4-prompt Spanish set for bilingual markets, each run 3 times per engine for non-determinism. Per-engine score, cross-engine average, hallucinations table with severity classification, competitive framing remediation map, monitoring cadence. Distinct from dealer-customer-sentiment-analyzer (Google reviews) and dealer-ai-visibility (citation presence).",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "ai-sentiment", "ai-brand-sentiment", "ai-search", "aeo", "geo", "chatgpt", "perplexity", "gemini", "claude", "copilot", "hallucination-detection", "ai-reputation", "franchise-dealer"]
+    },
+    {
+      "name": "dealer-ai-referral-analytics",
+      "source": "./skills/dealer-ai-referral-analytics",
+      "description": "Audit a car dealership's AI-referrer traffic across GA4, Google Search Console, and server logs. 8-dimension, 100-point framework covering AI referrer detection in GA4 (custom channel group, custom dimension, audience), AI engine traffic volume and trend, landing page distribution, engagement quality vs organic, conversion and lead-to-sale ROI, GSC AI Mode and AI Overview presence detection via CTR drift, AI bot crawl traffic (GPTBot, Google-Extended, PerplexityBot, ClaudeBot, Applebot-Extended, Bytespider, Meta, Amazon, CCBot, others), and reporting cadence. Setup mode for dealers starting from scratch and Audit mode for current-state assessment.",
+      "version": "1.0.0",
+      "author": { "name": "Ariel Coro", "url": "https://www.dealeraiguy.com" },
+      "homepage": "https://dealeraiskills.com",
+      "category": "automotive-retail",
+      "keywords": ["car-dealer", "automotive-retail", "dealership", "ai-referral-analytics", "ai-referrer-tracking", "ga4", "google-search-console", "ai-overview", "ai-mode", "ai-bot-crawl", "gptbot", "perplexitybot", "claudebot", "google-extended", "applebot-extended", "aeo", "geo", "franchise-dealer"]
     }
   ]
 }

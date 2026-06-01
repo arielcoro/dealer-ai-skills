@@ -23,7 +23,7 @@ Skills are **MIT-licensed** and free to install. They link back to free Dealer A
 
 ---
 
-## Available skills (21)
+## Available skills (23)
 
 ### Strategy and planning
 
@@ -82,6 +82,14 @@ End-to-end audit of GA4 and Google Ads conversion tracking. 10-dimension, 100-po
 
 #### [dealer-call-tracking-audit](./skills/dealer-call-tracking-audit)
 Audit call tracking platform configuration for attribution, conversation intelligence, and integration with Google Ads, GA4, and CRM. 10-dimension, 100-point framework: platform deployment, number pool sizing, dynamic number insertion (DNI), source mapping, conversation intelligence (categorization, keyword spotting, scoring), Google Ads conversion sync, GA4 event sync, CRM integration, routing and IVR, and recording plus TCPA compliance. Three-way reconciliation: platform totals vs CRM phone-source leads vs Google Ads phone conversions. CallRail, Invoca, and Marchex platform-specific overlays.
+
+### AI sentiment and referral analytics
+
+#### [dealer-ai-sentiment-monitor](./skills/dealer-ai-sentiment-monitor)
+Audit how AI search engines (ChatGPT, Perplexity, Gemini, Google AI Mode, Claude, Copilot, optional Grok) describe and characterize the dealership. 6-dimension, 100-point framework: tone, factual accuracy, strength framing, concern framing, competitive positioning, hallucination plus stale-data risk. 25-prompt English standard set plus 4-prompt Spanish set, each run 3 times per engine for non-determinism. Per-engine score, cross-engine average, hallucinations table with severity, competitive framing remediation map, monitoring cadence. Distinct from `dealer-customer-sentiment-analyzer` (Google reviews) and `dealer-ai-visibility` (citation presence).
+
+#### [dealer-ai-referral-analytics](./skills/dealer-ai-referral-analytics)
+Audit AI-referrer traffic across GA4, Google Search Console, and server logs. 8-dimension, 100-point framework covering AI referrer detection in GA4 (custom channel group, custom dimension, audience), AI engine traffic volume and trend, landing page distribution, engagement quality vs organic, conversion and lead-to-sale ROI, GSC AI Mode and AI Overview presence detection via CTR drift, and AI bot crawl traffic (GPTBot, Google-Extended, PerplexityBot, ClaudeBot, Applebot-Extended, Bytespider, Meta, Amazon, CCBot, others). Setup mode for dealers starting from scratch; Audit mode for current state.
 
 ### Inventory and merchandising
 

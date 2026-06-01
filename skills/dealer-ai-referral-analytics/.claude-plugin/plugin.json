@@ -1,0 +1,32 @@
+{
+  "name": "dealer-ai-referral-analytics",
+  "version": "1.0.0",
+  "description": "Audit a car dealership's AI-referrer traffic across GA4, Google Search Console, and server logs. 8-dimension, 100-point framework covering AI referrer detection in GA4 (custom channel group, custom dimension, audience), AI engine traffic volume and trend, landing page distribution, engagement quality vs organic, conversion and lead-to-sale ROI, GSC AI Mode and AI Overview presence detection via CTR drift, AI bot crawl traffic (GPTBot, Google-Extended, PerplexityBot, ClaudeBot, Applebot-Extended, Bytespider, Meta, Amazon, CCBot, others), and reporting cadence. Includes Setup mode for dealers starting from scratch and Audit mode for current-state assessment. Closes the OnPrompt AI Referral Analytics feature. Distinct from dealer-ga4-tracking-audit (broader stack) and dealer-ai-visibility (citation presence).",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "ai-referral-analytics",
+    "ai-referrer-tracking",
+    "ga4",
+    "google-search-console",
+    "ai-overview",
+    "ai-mode",
+    "ai-bot-crawl",
+    "gptbot",
+    "perplexitybot",
+    "claudebot",
+    "google-extended",
+    "applebot-extended",
+    "aeo",
+    "geo",
+    "franchise-dealer"
+  ]
+}

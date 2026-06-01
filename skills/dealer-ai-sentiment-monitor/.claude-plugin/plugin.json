@@ -1,0 +1,30 @@
+{
+  "name": "dealer-ai-sentiment-monitor",
+  "version": "1.0.0",
+  "description": "Audit how AI search engines (ChatGPT, Perplexity, Gemini, Google AI Mode, Claude, Copilot, optional Grok) describe and characterize a car dealership. 6-dimension, 100-point framework covering tone, factual accuracy, strength framing, concern framing, competitive positioning, and hallucination plus stale-data risk. Includes 25-prompt English standard set plus 4-prompt Spanish set for bilingual markets. Each prompt run 3 times per engine for non-determinism. Produces per-engine breakdown, cross-engine score, hallucinations table with severity classification, competitive framing remediation map, and monitoring cadence. Distinct from dealer-customer-sentiment-analyzer (Google reviews) and dealer-ai-visibility (citation presence). Closes the OnPrompt brand sentiment feature.",
+  "author": {
+    "name": "Ariel Coro",
+    "url": "https://www.dealeraiguy.com"
+  },
+  "homepage": "https://dealeraiskills.com",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "car-dealer",
+    "automotive-retail",
+    "dealership",
+    "ai-sentiment",
+    "ai-brand-sentiment",
+    "ai-search",
+    "aeo",
+    "geo",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "claude",
+    "copilot",
+    "hallucination-detection",
+    "ai-reputation",
+    "franchise-dealer"
+  ]
+}

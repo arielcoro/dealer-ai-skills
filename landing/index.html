@@ -404,7 +404,7 @@
 <section class="hero">
   <a class="release-banner" href="https://github.com/arielcoro/dealer-ai-skills/releases">
     <span class="tag-new">NEW</span>
-    v1.11.0 &mdash; GBP, Bilingual SEO, GA4 + Ads, and Call Tracking audits shipped
+    v1.12.0 &mdash; AI Sentiment Monitor + AI Referral Analytics shipped
     <span class="arrow">&rarr;</span>
   </a>
   <div class="eyebrow">Dealer AI Skills marketplace</div>
@@ -872,6 +872,44 @@
     <div class="actions">
       <a class="btn primary" href="https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-call-tracking-audit">View source</a>
       <a class="btn" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/skills/dealer-call-tracking-audit/REFERENCE.md">Read the framework</a>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h3 style="color: var(--accent); margin-bottom: 4px;">AI sentiment</h3>
+    <h4>Dealer AI Sentiment Monitor</h4>
+    <p>Audit how ChatGPT, Perplexity, Gemini, Google AI Mode, Claude, and Copilot describe and characterize the dealership. Most dealers know AI engines are answering questions about them but have no idea what those answers actually say. The reality is mixed: hallucinated employee names, wrong brand mix, fabricated reviews, AI engines recommending competitors with no basis.</p>
+    <p>6-dimension, 100-point framework. 25-prompt English standard set plus 4-prompt Spanish set, each run 3 times per engine for non-determinism. Output: per-engine score, hallucinations table with severity classification, competitive framing remediation map, monitoring cadence.</p>
+    <div class="meta">
+      <span class="tag">6 AI engines</span>
+      <span class="tag">25 English + 4 Spanish prompts</span>
+      <span class="tag">Hallucination detection</span>
+      <span class="tag">Severity classification</span>
+      <span class="tag">Bilingual</span>
+    </div>
+    <div class="install-line">/plugin install dealer-ai-sentiment-monitor@dealer-ai-skills</div>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-sentiment-monitor">View source</a>
+      <a class="btn" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/skills/dealer-ai-sentiment-monitor/REFERENCE.md">See the prompt set</a>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h3 style="color: var(--accent); margin-bottom: 4px;">AI analytics</h3>
+    <h4>Dealer AI Referral Analytics</h4>
+    <p>Audit AI-referrer traffic across GA4, Google Search Console, and server logs. Most dealer GA4 setups bucket AI traffic into Referral or Direct, so the dealer never knows that ChatGPT, Perplexity, Gemini, and Copilot are sending real visitors who convert at high rates. AI bot crawl traffic (GPTBot, Google-Extended, PerplexityBot, ClaudeBot, Applebot-Extended) is invisible to GA4 entirely.</p>
+    <p>8-dimension, 100-point framework. Setup mode produces a step-by-step GA4 custom channel group, custom dimension, GTM tag, and audience configuration. Audit mode produces the current AI traffic baseline, per-engine breakdown, landing page distribution, conversion rate, GSC AI Mode CTR drift analysis, and bot crawl summary.</p>
+    <div class="meta">
+      <span class="tag">8 dimensions</span>
+      <span class="tag">Setup + Audit modes</span>
+      <span class="tag">GA4 + GSC + Cloudflare</span>
+      <span class="tag">Bot crawl tracking</span>
+      <span class="tag">AI Overview detection</span>
+    </div>
+    <div class="install-line">/plugin install dealer-ai-referral-analytics@dealer-ai-skills</div>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-referral-analytics">View source</a>
+      <a class="btn" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/skills/dealer-ai-referral-analytics/CHECKS.md">See the GA4 setup guide</a>
     </div>
   </div>
 
