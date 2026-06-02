@@ -954,6 +954,33 @@
   footer a { color: var(--muted); }
   footer a:hover { color: var(--cyan); }
 
+  /* ---------- Skills-vs-agents explainer band ---------- */
+  .explainer-band {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--line-strong); border-radius: 16px;
+    padding: 28px 32px; margin: 0 0 56px;
+    display: grid; grid-template-columns: 1fr auto; gap: 20px 34px; align-items: center;
+    background:
+      radial-gradient(130% 180% at 0% 0%, rgba(65,227,216,0.10), transparent 55%),
+      linear-gradient(180deg, var(--card), var(--card-2));
+  }
+  .explainer-band::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+    background: linear-gradient(180deg, var(--amber), var(--accent));
+    box-shadow: 0 0 18px rgba(255,178,61,0.5);
+  }
+  .explainer-band .eyebrow {
+    font-family: var(--mono); color: var(--amber); letter-spacing: 0.28em;
+    font-size: 11px; text-transform: uppercase; margin-bottom: 10px;
+    text-shadow: 0 0 14px rgba(255,178,61,0.4);
+  }
+  .explainer-band h2 { margin: 0 0 8px; font-size: clamp(21px, 2.6vw, 30px); }
+  .explainer-band p { color: #c4cde2; max-width: 640px; margin: 0; font-size: 16px; }
+  .explainer-band .band-cta { white-space: nowrap; }
+  @media (max-width: 760px) {
+    .explainer-band { grid-template-columns: 1fr; padding: 24px 22px; }
+  }
+
   /* ---------- Mobile ---------- */
   @media (max-width: 760px) {
     .wrap { padding-left: 16px; padding-right: 16px; }
@@ -1005,6 +1032,7 @@
   <label for="navtoggle" class="nav-burger" aria-label="Toggle menu"><span></span><span></span><span></span></label>
   <nav class="nav">
     <a href="#skills">Skills</a>
+    <a href="/skills-explained">What are skills?</a>
     <a href="#install">Install</a>
     <a href="#faq">FAQ</a>
     <a href="#submit">Submit a skill</a>
@@ -1049,6 +1077,15 @@
     <div class="hud-stat"><span class="hud-num">MIT</span><span class="hud-label">License</span></div>
     <div class="hud-stat"><span class="hud-num">$0</span><span class="hud-label">Forever</span></div>
   </div>
+</section>
+
+<section class="explainer-band">
+  <div>
+    <div class="eyebrow">New to AI skills?</div>
+    <h2>Skills or agents? What's the difference?</h2>
+    <p>An agent is the AI tool you talk to, like Claude or ChatGPT. A skill is a recipe it follows. You bring the cook. We bring the recipes. Here is the two-minute version.</p>
+  </div>
+  <a class="btn primary band-cta" href="/skills-explained">Read the full explainer &rarr;</a>
 </section>
 
 <section id="explainer" style="margin-top: 28px; margin-bottom: 28px;">
