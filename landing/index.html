@@ -584,8 +584,416 @@
   }
   footer a { color: var(--muted); text-decoration: underline; }
 </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style id="retro-future">
+  /* ============================================================
+     DEALER AI SKILLS — retro-future cockpit redesign
+     Dark instrument-panel theme layered over the base styles.
+     ============================================================ */
+
+  :root {
+    --ink: #eef2fb;            /* primary text (light) */
+    --bg: #070b16;            /* page base, deep cockpit night */
+    --bg-2: #0a1020;
+    --card: #0e1626;          /* panel surface */
+    --card-2: #111c30;
+    --line: rgba(124,150,196,0.16);
+    --line-strong: rgba(124,150,196,0.34);
+    --muted: #8a98ba;
+    --accent: #ff3d57;        /* brand red, brightened — high alert */
+    --amber: #ffb23d;         /* instrument amber, primary glow */
+    --cyan: #41e3d8;          /* neon cyan, interactive */
+    --magenta: #ff5b9a;       /* synthwave horizon */
+    --green: #3ce08c;
+    --yellow: #ffd24d;
+    --green-soft: rgba(60,224,140,0.12);
+    --yellow-soft: rgba(255,210,77,0.12);
+    --red-soft: rgba(255,61,87,0.12);
+    --mono: 'Space Mono', 'SF Mono', 'Menlo', monospace;
+    --display: 'Chakra Petch', 'Segoe UI', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    background:
+      radial-gradient(1100px 620px at 50% -8%, rgba(255,91,154,0.10), transparent 60%),
+      radial-gradient(900px 520px at 88% 6%, rgba(65,227,216,0.08), transparent 55%),
+      var(--bg);
+    color: var(--ink);
+    letter-spacing: 0.005em;
+  }
+  ::selection { background: var(--accent); color: #fff; }
+  ::-webkit-scrollbar { width: 11px; height: 11px; }
+  ::-webkit-scrollbar-track { background: var(--bg-2); }
+  ::-webkit-scrollbar-thumb { background: #1d2c47; border-radius: 6px; border: 2px solid var(--bg-2); }
+  ::-webkit-scrollbar-thumb:hover { background: #2a3e63; }
+
+  /* CRT scanline + grain atmosphere */
+  .crt, .grain {
+    position: fixed; inset: 0; pointer-events: none; z-index: 9000;
+  }
+  .crt {
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0) 0,
+      rgba(0,0,0,0) 2px,
+      rgba(0,0,0,0.10) 3px,
+      rgba(0,0,0,0) 4px
+    );
+    mix-blend-mode: multiply; opacity: 0.5;
+  }
+  .grain {
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  /* faint vignette */
+  body::after {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 8999;
+    box-shadow: inset 0 0 240px 30px rgba(0,0,0,0.55);
+  }
+
+  /* ---------- Typography ---------- */
+  h1, h2, .brand, .skill-card h4, .hud-num {
+    font-family: var(--display);
+  }
+  .eyebrow, h3, .tag, .install-line, code, .nav a, .label,
+  .release-banner, .hud-label, .install-stack .install-row .label {
+    font-family: var(--mono);
+  }
+
+  /* ---------- Header / HUD bar ---------- */
+  .wrap { max-width: 1040px; padding-top: 0; }
+  .topbar {
+    position: sticky; top: 0; z-index: 200;
+    background: rgba(7,11,22,0.78);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--line-strong);
+    padding: 14px 0; margin: 0 0 38px;
+    align-items: center;
+  }
+  .brand {
+    color: var(--ink); font-weight: 700; letter-spacing: 0.04em;
+    text-transform: uppercase; font-size: 18px;
+  }
+  .brand-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--amber);
+    box-shadow: 0 0 0 3px rgba(255,178,61,0.18), 0 0 14px 2px rgba(255,178,61,0.8);
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.55;transform:scale(.82)} }
+  .nav a {
+    color: var(--muted); font-size: 13px; font-weight: 400;
+    letter-spacing: 0.04em; text-transform: uppercase; transition: color .15s;
+  }
+  .nav a:hover { color: var(--cyan); text-shadow: 0 0 12px rgba(65,227,216,0.5); }
+
+  .nav-toggle { display: none; }
+  .nav-burger { display: none; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 46px 38px 44px;
+    margin-bottom: 56px;
+    background:
+      linear-gradient(180deg, rgba(14,22,38,0.6), rgba(7,11,22,0.2));
+  }
+  .hero > * { position: relative; z-index: 2; }
+  .hero-glow {
+    position: absolute; z-index: 0; top: -160px; left: 50%;
+    width: min(720px, 110%); height: 420px; transform: translateX(-50%);
+    background: radial-gradient(ellipse at center,
+      rgba(255,91,154,0.45), rgba(255,178,61,0.18) 38%, transparent 70%);
+    filter: blur(18px); pointer-events: none;
+  }
+  .hero-grid {
+    position: absolute; z-index: 1; left: -25%; right: -25%; bottom: -2px;
+    height: 50%; pointer-events: none; overflow: hidden;
+    -webkit-mask-image: linear-gradient(to top, #000 18%, transparent 88%);
+            mask-image: linear-gradient(to top, #000 18%, transparent 88%);
+  }
+  .hero-grid::before {
+    content: ""; position: absolute; inset: -40% 0 0 0;
+    background-image:
+      linear-gradient(to right, rgba(65,227,216,0.28) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,91,154,0.22) 1px, transparent 1px);
+    background-size: 46px 46px;
+    transform: perspective(360px) rotateX(64deg);
+    transform-origin: bottom center;
+    animation: gridrun 5.5s linear infinite;
+  }
+  @keyframes gridrun { from { background-position: 0 0; } to { background-position: 0 46px; } }
+
+  .release-banner {
+    background: rgba(255,178,61,0.06);
+    border: 1px solid rgba(255,178,61,0.4);
+    color: var(--ink); font-size: 11px; letter-spacing: 0.04em;
+    text-transform: uppercase; padding: 7px 14px;
+  }
+  .release-banner .tag-new {
+    background: var(--amber); color: #1a1205; font-weight: 700;
+    box-shadow: 0 0 12px rgba(255,178,61,0.55);
+  }
+  .release-banner .arrow { color: var(--amber); }
+  .release-banner:hover { border-color: var(--amber); box-shadow: 0 0 22px rgba(255,178,61,0.18); }
+
+  .eyebrow {
+    color: var(--cyan); letter-spacing: 0.34em; font-size: 11px;
+    text-shadow: 0 0 14px rgba(65,227,216,0.4);
+  }
+  h1 {
+    font-weight: 700; letter-spacing: 0.01em; line-height: 1.02;
+    font-size: clamp(38px, 6vw, 68px);
+    background: linear-gradient(180deg, #ffffff 0%, #d6deef 42%, #8493b8 56%, #f2f6ff 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    text-shadow: 0 2px 30px rgba(120,150,210,0.18);
+    text-transform: uppercase;
+  }
+  .lede { color: #c4cde2; max-width: 680px; font-size: clamp(16px, 2vw, 19px); }
+  .byline { color: var(--muted); }
+  .byline strong { color: var(--ink); }
+
+  /* terminal install rows */
+  .install-stack .install-row {
+    background: linear-gradient(180deg, #060a14, #0a1120);
+    border: 1px solid var(--line-strong);
+    border-radius: 10px; position: relative; overflow: hidden;
+    padding: 15px 18px 15px 16px;
+  }
+  .install-stack .install-row::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--cyan); box-shadow: 0 0 16px rgba(65,227,216,0.7);
+  }
+  .install-stack .install-row .label {
+    color: var(--amber); letter-spacing: 0.12em;
+  }
+  .install-stack .install-row code { color: var(--cyan); font-size: 13.5px; }
+
+  /* ---------- HUD stat cluster ---------- */
+  .hud-cluster {
+    display: flex; flex-wrap: wrap; gap: 14px;
+    margin: 34px 0 2px; padding-top: 26px;
+    border-top: 1px solid var(--line);
+  }
+  .hud-stat {
+    flex: 1 1 120px; min-width: 110px;
+    padding: 4px 0 4px 16px;
+    border-left: 2px solid var(--amber);
+  }
+  .hud-num {
+    display: block; font-weight: 700; line-height: 1;
+    font-size: clamp(30px, 4.4vw, 46px); color: var(--ink);
+    text-shadow: 0 0 22px rgba(255,178,61,0.3);
+  }
+  .hud-label {
+    display: block; margin-top: 8px; color: var(--muted);
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  .hud-stat:nth-child(2) { border-color: var(--cyan); }
+  .hud-stat:nth-child(2) .hud-num { text-shadow: 0 0 22px rgba(65,227,216,0.3); }
+  .hud-stat:nth-child(3) { border-color: var(--magenta); }
+  .hud-stat:nth-child(4) { border-color: var(--green); }
+
+  /* ---------- Section headings ---------- */
+  h2 { font-weight: 600; letter-spacing: 0.005em; color: var(--ink); }
+  h3 {
+    color: var(--accent); letter-spacing: 0.18em; font-weight: 700;
+    text-transform: uppercase;
+  }
+  #explainer h2, section h2 { position: relative; }
+
+  /* group divider blocks (inline-styled in markup) get HUD bracket flavor */
+  #skills > div[style*="border-top"] {
+    position: relative;
+    border-image: linear-gradient(to right, var(--amber), transparent) 1 !important;
+  }
+
+  /* ---------- Cards / instrument modules ---------- */
+  .skill-card {
+    background: linear-gradient(180deg, var(--card), var(--card-2));
+    border: 1px solid var(--line);
+    border-radius: 14px; position: relative;
+    transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+  }
+  .skill-card::after {
+    content: ""; position: absolute; top: 14px; right: 16px;
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--green); box-shadow: 0 0 10px var(--green); opacity: .7;
+  }
+  .skill-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(65,227,216,0.55);
+    box-shadow: 0 18px 50px -22px rgba(0,0,0,0.8), 0 0 0 1px rgba(65,227,216,0.18), 0 0 34px -8px rgba(65,227,216,0.25);
+  }
+  .skill-card h4 { color: var(--ink); font-weight: 600; }
+  .skill-card p { color: #b4bfd8; }
+  .skill-card.coming { opacity: .82; }
+  .skill-card.coming::after { background: var(--yellow); box-shadow: 0 0 10px var(--yellow); }
+  .skill-card.coming .badge {
+    background: var(--yellow-soft); color: var(--yellow);
+    border: 1px solid rgba(255,210,77,0.4); font-family: var(--mono);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+
+  /* featured (mental model) panel */
+  .skill-card.featured {
+    background:
+      radial-gradient(120% 140% at 100% 0%, rgba(255,61,87,0.16), transparent 55%),
+      linear-gradient(180deg, #0c1424, #0a101e);
+    border-color: rgba(255,61,87,0.4);
+  }
+  .skill-card.featured::after { background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+
+  .tag {
+    background: rgba(124,150,196,0.06);
+    border: 1px solid var(--line-strong);
+    color: #aeb9d4; font-size: 10.5px; letter-spacing: 0.05em;
+    text-transform: uppercase; padding: 4px 10px 3px;
+    position: relative;
+  }
+
+  /* terminal command lines */
+  .install-line, .skill-card .install-line {
+    background: #05080f; border: 1px solid var(--line-strong);
+    color: var(--cyan); border-radius: 8px; position: relative;
+    padding-left: 30px; font-size: 12.5px;
+  }
+  .install-line::before {
+    content: "$"; position: absolute; left: 12px; top: 50%;
+    transform: translateY(-50%); color: var(--amber); font-weight: 700;
+  }
+
+  /* ---------- Buttons (angular HUD) ---------- */
+  .btn {
+    font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.06em;
+    font-size: 12px; font-weight: 700;
+    border: 1px solid var(--line-strong); color: var(--ink);
+    background: rgba(124,150,196,0.04);
+    clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+    transition: all .16s ease;
+  }
+  .btn:hover {
+    border-color: var(--cyan); color: var(--cyan);
+    background: rgba(65,227,216,0.08);
+    box-shadow: 0 0 20px -4px rgba(65,227,216,0.5);
+  }
+  .btn.primary {
+    background: linear-gradient(180deg, #ff576e, var(--accent));
+    border-color: var(--accent); color: #fff;
+    box-shadow: 0 8px 24px -10px rgba(255,61,87,0.7);
+  }
+  .btn.primary:hover {
+    color: #fff; border-color: #ff7d90;
+    box-shadow: 0 0 26px -4px rgba(255,61,87,0.75);
+  }
+  .btn.accent { background: var(--amber); border-color: var(--amber); color: #1a1205; }
+
+  /* ---------- Why / quote ---------- */
+  .why {
+    background:
+      radial-gradient(120% 120% at 0% 0%, rgba(255,178,61,0.08), transparent 50%),
+      linear-gradient(180deg, var(--card), var(--card-2));
+    border: 1px solid var(--line-strong); border-radius: 14px;
+  }
+  .why blockquote {
+    border-left: 3px solid var(--amber); color: #d6deef;
+    text-shadow: 0 0 30px rgba(0,0,0,0.4);
+  }
+
+  /* ---------- FAQ console rows ---------- */
+  #faq details {
+    background: var(--card) !important;
+    border: 1px solid var(--line) !important; position: relative;
+    transition: border-color .15s;
+  }
+  #faq details[open] { border-color: var(--line-strong) !important; }
+  #faq summary { color: var(--ink) !important; position: relative; padding-right: 34px; }
+  #faq summary::after {
+    content: "+"; position: absolute; right: 2px; top: 50%;
+    transform: translateY(-50%); color: var(--amber);
+    font-family: var(--mono); font-size: 22px; line-height: 1; transition: transform .2s;
+  }
+  #faq details[open] summary::after { content: "\2212"; }
+  #faq summary:hover { color: var(--cyan) !important; }
+  #faq details p { color: #b8c2db !important; }
+
+  /* ---------- Community / footer ---------- */
+  .community-block { border-top: 1px solid var(--line-strong); }
+  .community-block .big-btn {
+    border: 1px solid var(--line-strong); color: var(--ink);
+    border-radius: 10px; font-family: var(--mono); font-weight: 700;
+    background: rgba(124,150,196,0.04); transition: all .16s;
+  }
+  .community-block .big-btn:hover {
+    background: rgba(65,227,216,0.08); border-color: var(--cyan); color: var(--cyan);
+    box-shadow: 0 0 24px -6px rgba(65,227,216,0.5);
+  }
+  .community-block .big-btn.primary { border-color: rgba(255,61,87,0.5); color: var(--accent); }
+  .community-block .big-btn.primary:hover {
+    background: rgba(255,61,87,0.1); border-color: var(--accent); color: #ff7d90;
+    box-shadow: 0 0 24px -6px rgba(255,61,87,0.5);
+  }
+  .community-block .share-line a, .community-block .built-by-author { color: var(--ink); }
+  .community-block .avatar { border-color: var(--line-strong); }
+  .agency-callout {
+    background: linear-gradient(180deg, var(--card), var(--card-2));
+    border: 1px solid var(--line); color: var(--ink);
+  }
+  .agency-callout a, .community-block .done-for-you a { color: var(--cyan); }
+
+  footer { border-top: 1px solid var(--line-strong); color: var(--muted); }
+  footer a { color: var(--muted); }
+  footer a:hover { color: var(--cyan); }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width: 760px) {
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .hero { padding: 34px 20px 36px; border-radius: 16px; }
+    .topbar { position: relative; flex-wrap: nowrap; }
+    .nav-burger {
+      display: flex; flex-direction: column; justify-content: center; gap: 5px;
+      width: 42px; height: 38px; cursor: pointer; padding: 9px;
+      border: 1px solid var(--line-strong); border-radius: 8px; margin-left: auto;
+    }
+    .nav-burger span {
+      display: block; height: 2px; width: 100%; background: var(--ink);
+      transition: transform .2s, opacity .2s;
+    }
+    .nav {
+      display: none; position: absolute; top: calc(100% + 10px); left: 0; right: 0;
+      flex-direction: column; gap: 0; align-items: stretch;
+      background: rgba(10,16,32,0.97); backdrop-filter: blur(14px);
+      border: 1px solid var(--line-strong); border-radius: 12px;
+      padding: 6px; z-index: 300;
+    }
+    .nav a { padding: 13px 14px; font-size: 14px; border-bottom: 1px solid var(--line); }
+    .nav a:last-child { border-bottom: none; }
+    .nav-toggle:checked ~ .nav { display: flex; }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(2) { opacity: 0; }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .hud-stat { flex: 1 1 40%; }
+    .grid.cols-2 { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-grid::before, .brand-dot { animation: none; }
+    html { scroll-behavior: auto; }
+  }
+</style>
 </head>
 <body>
+<div class="crt" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
 <div class="wrap">
 
 <div class="topbar">
@@ -593,6 +1001,8 @@
     <span class="brand-dot"></span>
     Dealer AI Skills
   </a>
+  <input type="checkbox" id="navtoggle" class="nav-toggle" aria-hidden="true">
+  <label for="navtoggle" class="nav-burger" aria-label="Toggle menu"><span></span><span></span><span></span></label>
   <nav class="nav">
     <a href="#skills">Skills</a>
     <a href="#install">Install</a>
@@ -604,6 +1014,8 @@
 </div>
 
 <section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
   <a class="release-banner" href="https://github.com/arielcoro/dealer-ai-skills/releases">
     <span class="tag-new">NEW</span>
     v1.12.0 &mdash; AI Sentiment Monitor + AI Referral Analytics shipped
@@ -626,9 +1038,16 @@
   </div>
   <p style="font-size: 13px; color: var(--muted); margin-top: 8px;">The <strong>easiest path</strong>: paste the prompt above into Claude Code, Cursor, Cline, Codex, Gemini CLI, Windsurf, or any agent. The agent inspects the marketplace and installs the skills. The <strong>Claude Code marketplace</strong> path uses the formal <code style="font-family: monospace;">/plugin</code> command in Claude Code CLI or Claude Code Desktop. (The <code style="font-family: monospace;">/plugin</code> command does not run in Cowork or claude.ai chat; use the easiest path there.)</p>
 
-  <div style="display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap;">
-    <a class="btn primary" style="background: var(--ink); color: white; padding: 11px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; border: 1px solid var(--ink);" href="https://github.com/arielcoro/dealer-ai-skills">View on GitHub</a>
-    <a class="btn" style="padding: 11px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; border: 1px solid var(--ink); color: var(--ink); background: transparent;" href="#skills">See available skills</a>
+  <div style="display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap;">
+    <a class="btn primary" style="padding: 12px 20px; text-decoration: none;" href="https://github.com/arielcoro/dealer-ai-skills">View on GitHub</a>
+    <a class="btn" style="padding: 12px 20px; text-decoration: none;" href="#skills">See available skills</a>
+  </div>
+
+  <div class="hud-cluster">
+    <div class="hud-stat"><span class="hud-num">23</span><span class="hud-label">Skills</span></div>
+    <div class="hud-stat"><span class="hud-num">06</span><span class="hud-label">Systems</span></div>
+    <div class="hud-stat"><span class="hud-num">MIT</span><span class="hud-label">License</span></div>
+    <div class="hud-stat"><span class="hud-num">$0</span><span class="hud-label">Forever</span></div>
   </div>
 </section>
 
@@ -655,8 +1074,8 @@
       <p>Functionally synonymous with AEO. Some practitioners draw a slight distinction: GEO targets generative AI engines specifically (ChatGPT, Perplexity, Gemini, Claude, Copilot) while AEO covers both generative engines and classical answer engines. In practice, treat AEO and GEO as the same discipline.</p>
       <p style="font-size: 13px; color: var(--muted);"><strong>The terminology is still settling.</strong> Most dealer agencies use both terms. This marketplace covers both.</p>
     </div>
-    <div class="skill-card" style="padding: 24px 26px; background: var(--ink); color: white;">
-      <h3 style="color: #ffb1c0; margin-bottom: 4px;">The mental model</h3>
+    <div class="skill-card featured" style="padding: 24px 26px;">
+      <h3 style="color: var(--amber); margin-bottom: 4px;">The mental model</h3>
       <h4 style="font-size: 20px; color: white;">SEO targets the link list. AEO and GEO target the answer.</h4>
       <p style="color: rgba(255,255,255,0.85);">A car dealer site can rank #1 in Google web search and be invisible in ChatGPT. The reverse is also true. Most dealers need to invest in both: SEO for direct conversion traffic, AEO/GEO for research-stage visibility.</p>
       <p style="color: rgba(255,255,255,0.85); font-size: 13px;">The <code style="background: rgba(255,255,255,0.1); padding: 1px 6px; border-radius: 3px;">dealer-search-strategy</code> skill in this marketplace produces a unified strategy covering all three.</p>
@@ -1346,7 +1765,7 @@
       <h4>1. Submit a skill idea (no GitHub required)</h4>
       <p>Have a dealer operational problem you want a skill to solve? Email Ariel with the problem, why it matters, an outline of what the skill would do, and your background. If the suggestion fits the marketplace direction, we open an issue and credit you in the skill design.</p>
       <div class="actions" style="margin-top: 14px;">
-        <a class="btn primary" style="padding: 10px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; background: var(--ink); color: white; border: 1px solid var(--ink);" href="mailto:ariel@tutecnologia.com?subject=Skill%20submission%20for%20Dealer%20AI%20Skills">Email Ariel</a>
+        <a class="btn primary" style="padding: 11px 18px; text-decoration: none;" href="mailto:ariel@tutecnologia.com?subject=Skill%20submission%20for%20Dealer%20AI%20Skills">Email Ariel</a>
       </div>
     </div>
 
@@ -1354,7 +1773,7 @@
       <h4>2. Open a GitHub issue (recommended)</h4>
       <p>Propose a new skill, an improvement to an existing skill, or report a bug. Three issue templates make it fast. Discussion happens in the issue. If the idea moves forward we either build it or invite you to submit a pull request.</p>
       <div class="actions" style="margin-top: 14px;">
-        <a class="btn primary" style="padding: 10px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; background: var(--ink); color: white; border: 1px solid var(--ink);" href="https://github.com/arielcoro/dealer-ai-skills/issues/new/choose">Open an issue</a>
+        <a class="btn primary" style="padding: 11px 18px; text-decoration: none;" href="https://github.com/arielcoro/dealer-ai-skills/issues/new/choose">Open an issue</a>
       </div>
     </div>
 
@@ -1362,7 +1781,7 @@
       <h4>3. Submit a pull request (for developers)</h4>
       <p>Fork the repo, build your contribution following the existing skill structure (SKILL.md + REFERENCE.md + supporting files + plugin.json), test it end-to-end in your AI agent, and open a PR. Most PRs go through 1 to 3 review rounds before merge. We aim to respond within 7 days.</p>
       <div class="actions" style="margin-top: 14px;">
-        <a class="btn primary" style="padding: 10px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; background: var(--ink); color: white; border: 1px solid var(--ink);" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/CONTRIBUTING.md">Read the guide</a>
+        <a class="btn primary" style="padding: 11px 18px; text-decoration: none;" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/CONTRIBUTING.md">Read the guide</a>
       </div>
     </div>
 
@@ -1371,7 +1790,7 @@
       <p style="margin-bottom: 8px;"><strong>Accepted:</strong> new skills for real dealer operational problems, improvements to existing audits, platform-specific guidance (Dealer.com, DealerOn, DealerInspire), OEM-specific knowledge (GM, Ford, Stellantis, Toyota, Honda, Hyundai, Kia, Subaru, VW, Audi, Mazda), Spanish-language content, bug fixes, documentation.</p>
       <p style="margin-bottom: 8px;"><strong>Not accepted:</strong> vendor promotion, client-specific information, paid media management skills, F&amp;I compliance frameworks (legal exposure), legal or financial advice, derivative work from paid third-party content.</p>
       <div class="actions" style="margin-top: 14px;">
-        <a class="btn" style="padding: 10px 18px; border-radius: 999px; font-weight: 600; text-decoration: none; font-size: 14px; border: 1px solid var(--ink); color: var(--ink); background: transparent;" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>
+        <a class="btn" style="padding: 11px 18px; text-decoration: none;" href="https://github.com/arielcoro/dealer-ai-skills/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a>
       </div>
     </div>
   </div>
