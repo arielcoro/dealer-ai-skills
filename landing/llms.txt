@@ -1,0 +1,66 @@
+# Dealer AI Skills
+
+> The first open-source AI agent skills marketplace built for car dealers. 23 free, MIT-licensed skills that install in Claude, ChatGPT, Cursor, Codex, Gemini, and any agent supporting the Agent Skills format.
+
+Dealer AI Skills is a free, open-source marketplace of 23 installable AI agent skills for franchise and independent car dealers. The skills cover traditional SEO, AEO and GEO (AI search visibility in ChatGPT, Perplexity, Gemini, Claude, and Copilot), GA4 and call-tracking measurement, Google Business Profile, Spanish-language bilingual SEO, technical website auditing, and customer lifecycle marketing. Each skill is the documented audit or playbook a working dealer-marketing operator would run, written so any AI agent can execute it. Created by Ariel Coro, founder of Dealer Growth Hackers and publisher of Dealer AI Guy. MIT licensed and vendor neutral.
+
+## Marketplace
+
+- [Home](https://dealeraiskills.com): Marketplace overview, full skill catalog, and install instructions
+- [What are AI skills?](https://dealeraiskills.com/skills-explained): Plain-English explainer of LLMs, AI agents, and AI skills, with a skill-versus-agent comparison and FAQ
+- [GitHub repository](https://github.com/arielcoro/dealer-ai-skills): Full source for all 23 skills, MIT licensed
+- [Releases](https://github.com/arielcoro/dealer-ai-skills/releases): Version history and changelog
+
+## Install
+
+- Easiest path: paste "Install this: https://github.com/arielcoro/dealer-ai-skills" into Claude, Cursor, Cline, Codex, Gemini CLI, or Windsurf, and the agent installs the skills
+- Claude Code marketplace: run "/plugin marketplace add arielcoro/dealer-ai-skills" inside Claude Code
+- Manual: clone the repository and copy any skill folder into your agent's skills directory
+
+## Skills: strategy and diagnosis
+
+- [Dealer AI Readiness Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-readiness-audit): 75-point operational diagnostic scored Green, Yellow, Red with a 30/60/90 day remediation roadmap
+- [Dealer Search Strategy](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-search-strategy): Unified SEO, AEO, and GEO strategy with a 4-pillar framework and 90-day roadmap
+- [Dealer Store Positioning](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-store-positioning): Positioning brief and marketing-ready content kit used as input by other skills
+
+## Skills: AI search visibility and sentiment
+
+- [Dealer AEO Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-aeo-audit): 30-check answer engine optimization audit across 10 dimensions
+- [Dealer AI Visibility](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-visibility): Citation tracker measuring share of voice across AI engines versus competitors
+- [Dealer AI Sentiment Monitor](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-sentiment-monitor): Audits how AI engines describe the dealership and detects hallucinations
+- [Dealer AI Referral Analytics](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ai-referral-analytics): Audits AI-referrer traffic across GA4, Search Console, and server logs
+- [Dealer llms.txt Generator](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-llms-txt-generator): Generates a canonical llms.txt facts file for a dealership
+- [Dealer AEO Content Brief](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-aeo-content-brief): Answer-engine-optimized content briefs for dealer pages and posts
+
+## Skills: traditional SEO and local presence
+
+- [Dealer SEO Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-seo-audit): 10-dimension, 100-point traditional Google SEO audit
+- [Dealer GBP Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-gbp-audit): Google Business Profile audit with multi-rooftop overlay
+- [Dealer Bilingual SEO](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-bilingual-seo): Spanish-language SEO for US dealers targeting Hispanic buyers
+
+## Skills: technical foundation and conversion
+
+- [Dealer Site Score](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-site-score): 100-point dealer website grader across 10 dimensions
+- [Dealer CTA Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-cta-audit): 6-dimension call-to-action conversion audit
+- [Dealer VDP Merchandising Review](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-vdp-merchandising-review): Brand-aware Vehicle Detail Page audit
+
+## Skills: measurement and attribution
+
+- [Dealer GA4 and Google Ads Conversion Tracking Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-ga4-tracking-audit): Reconciles GA4 reported conversions against CRM-confirmed leads
+- [Dealer Call Tracking Audit](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-call-tracking-audit): Audits CallRail, Invoca, or Marchex for attribution accuracy
+- [Dealer Call Transcript Classifier](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-call-transcript-classifier): Strict 5-class call classification that never inflates the sales count
+
+## Skills: customer lifecycle, demand, and reputation
+
+- [Dealer New Customer Onboarding](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-new-customer-onboarding): 90-day multi-channel post-sale onboarding program
+- [Dealer Email Flows](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-email-flows): 17 lifecycle email flows from purchase through year 5
+- [Dealer Equity Mining Campaign Builder](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-equity-mining-campaign-builder): 3-channel equity mining campaigns across 6 personas, TCPA-aware
+- [Dealer Comparison Page Builder](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-comparison-page-builder): Fair-play dealer-versus-competitor comparison pages optimized for SEO and AEO
+- [Dealer Customer Sentiment Analyzer](https://github.com/arielcoro/dealer-ai-skills/tree/main/skills/dealer-customer-sentiment-analyzer): Honest multi-platform review analysis with department-level breakdown
+
+## About
+
+- [Ariel Coro](https://arielcoro.com): Founder of Dealer Growth Hackers, publisher of Dealer AI Guy, and author of the marketplace
+- [Dealer Growth Hackers](https://dealergrowthhackers.com): Digital marketing agency for car dealers
+- [Dealer AI Guy](https://www.dealeraiguy.com): Publication covering AI for the automotive retail industry
+- License: MIT. Free to use, copy, modify, redistribute, and white-label.

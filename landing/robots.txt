@@ -1,0 +1,40 @@
+# Dealer AI Skills - robots.txt
+# Open-source AI agent skills marketplace for car dealers.
+# We welcome AI crawlers. The whole point is to be read and cited.
+
+User-agent: *
+Allow: /
+
+# AI assistant and answer-engine crawlers, explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Canonical facts file for AI engines: /llms.txt
+Sitemap: https://dealeraiskills.com/sitemap.xml
