@@ -1016,6 +1016,261 @@
     .hero-grid::before, .brand-dot { animation: none; }
     html { scroll-behavior: auto; }
   }
+
+  /* ============================================================
+     PROFESSIONAL MARKETPLACE REFINEMENT
+     Calm the synthwave to an accent. Anthropic restraint +
+     Codex technical cleanliness, retro-future kept as texture.
+     ============================================================ */
+  .crt { display: none; }                 /* drop scanlines, too gimmicky for a marketplace */
+  .grain { opacity: 0.022; }
+  body {
+    background:
+      radial-gradient(1100px 600px at 50% -12%, rgba(255,178,61,0.05), transparent 60%),
+      radial-gradient(820px 480px at 92% 3%, rgba(65,227,216,0.045), transparent 55%),
+      var(--bg);
+  }
+  body::after { box-shadow: inset 0 0 200px 24px rgba(0,0,0,0.45); }
+
+  /* hero: softer, more premium */
+  .hero { border-radius: 14px; padding: 44px 40px 40px; }
+  .hero-glow {
+    background: radial-gradient(ellipse at center, rgba(255,178,61,0.16), rgba(65,227,216,0.08) 46%, transparent 72%);
+    filter: blur(28px);
+  }
+  .hero-grid { opacity: 0.7; }
+  .eyebrow { text-shadow: none; letter-spacing: 0.26em; }
+  h1 { text-shadow: 0 1px 18px rgba(120,150,210,0.12); }
+  .release-banner { box-shadow: none; background: rgba(255,178,61,0.05); }
+  .release-banner:hover { box-shadow: none; }
+  .nav a:hover { text-shadow: none; }
+  .install-stack .install-row::before { box-shadow: none; width: 2px; }
+  .hud-num { text-shadow: none; }
+  .hud-cluster { border-top-color: var(--line); }
+
+  /* cards: flatter, calmer, uniform */
+  .skill-card {
+    background: #0d1626;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+  }
+  .skill-card::after {
+    width: 6px; height: 6px; top: 16px; right: 16px;
+    background: var(--green); box-shadow: none; opacity: 0.5;
+  }
+  .skill-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(124,150,196,0.5);
+    box-shadow: 0 14px 38px -24px rgba(0,0,0,0.9);
+  }
+  .skill-card.coming::after { box-shadow: none; }
+  .skill-card.featured { background: linear-gradient(180deg, #0e1726, #0b1320); }
+
+  /* buttons: keep the notch, calmer light */
+  .btn:hover { box-shadow: 0 0 0 1px rgba(65,227,216,0.22); }
+  .btn.primary { box-shadow: none; }
+  .btn.primary:hover { box-shadow: 0 6px 18px -10px rgba(255,61,87,0.55); }
+
+  /* ---------- Marketplace controls: search + filter chips ---------- */
+  .search-wrap {
+    display: flex; align-items: center; gap: 11px;
+    background: #0a1220; border: 1px solid var(--line-strong);
+    border-radius: 12px; padding: 13px 16px;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .search-wrap svg { width: 18px; height: 18px; color: var(--muted); flex: none; }
+  .search-wrap input {
+    background: transparent; border: none; outline: none; width: 100%;
+    color: var(--ink); font-family: var(--mono); font-size: 14px; letter-spacing: 0.01em;
+  }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-wrap:focus-within { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(65,227,216,0.12); }
+  .hero-search { max-width: 560px; margin: 24px 0 2px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 4px; }
+  .chip {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--muted); background: rgba(124,150,196,0.05); border: 1px solid var(--line);
+    border-radius: 999px; padding: 8px 15px; cursor: pointer; transition: all .14s; white-space: nowrap;
+  }
+  .chip:hover { color: var(--ink); border-color: var(--line-strong); }
+  .chip.active { color: #06101d; background: var(--cyan); border-color: var(--cyan); font-weight: 700; }
+  .chip .ct { opacity: 0.6; margin-left: 7px; font-weight: 400; }
+  .chip.active .ct { opacity: 0.65; }
+  .result-count {
+    font-family: var(--mono); font-size: 12px; color: var(--muted);
+    letter-spacing: 0.05em; margin: 14px 0 26px; text-transform: uppercase;
+  }
+  .skill-card.hide, .skill-group-hide { display: none !important; }
+  .no-results {
+    display: none; text-align: center; padding: 48px 20px; color: var(--muted);
+    font-family: var(--mono); font-size: 14px;
+  }
+  .no-results.show { display: block; }
+
+  @media (max-width: 760px) {
+    .hero-search { margin-top: 18px; }
+    .chips { gap: 6px; }
+    .chip { padding: 7px 12px; font-size: 11px; }
+  }
+
+  /* ============================================================
+     ANTHROPIC LIGHT THEME
+     Warm ivory background, warm near-black text, clay accent.
+     Retro-future kept as a warm blueprint grid + dark code blocks.
+     ============================================================ */
+  :root {
+    --bg: #f0eee6;
+    --bg-2: #ebe8dd;
+    --ink: #141413;          /* warm near-black text */
+    --card: #fffdf7;
+    --card-2: #f6f4ec;
+    --line: rgba(58,48,38,0.13);
+    --line-strong: rgba(58,48,38,0.24);
+    --muted: #6f6960;
+    --accent: #c15f3c;      /* clay / rust */
+    --amber: #bf8430;
+    --cyan: #3a7d74;        /* muted teal */
+    --magenta: #b15a72;
+    --green: #4f8a5b;
+    --yellow: #c2962f;
+  }
+  body {
+    background:
+      radial-gradient(1000px 560px at 50% -10%, rgba(193,95,60,0.05), transparent 60%),
+      var(--bg);
+    color: var(--ink);
+  }
+  body::after { box-shadow: none; }
+  .grain { opacity: 0.02; }
+  ::selection { background: var(--accent); color: #faf9f4; }
+  ::-webkit-scrollbar-track { background: #e9e6dc; }
+  ::-webkit-scrollbar-thumb { background: #cfc9bc; border-color: #e9e6dc; }
+  ::-webkit-scrollbar-thumb:hover { background: #bdb6a6; }
+
+  /* header */
+  .topbar { background: rgba(240,238,230,0.82); border-bottom-color: var(--line-strong); }
+  .brand { color: var(--ink); }
+  .brand-dot { background: var(--accent); box-shadow: 0 0 0 3px rgba(193,95,60,0.14), 0 0 12px 1px rgba(193,95,60,0.4); }
+  .nav a { color: var(--muted); }
+  .nav a:hover { color: var(--accent); text-shadow: none; }
+  .nav-burger span { background: var(--ink); }
+
+  /* hero */
+  .hero { background: linear-gradient(180deg, #f6f4ec, #f1eee4); border-color: var(--line-strong); }
+  .hero-glow { background: radial-gradient(ellipse at center, rgba(193,95,60,0.14), rgba(191,132,48,0.08) 45%, transparent 72%); }
+  .hero-grid { opacity: 0.55; }
+  .hero-grid::before {
+    background-image:
+      linear-gradient(to right, rgba(193,95,60,0.16) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(193,95,60,0.10) 1px, transparent 1px);
+  }
+  .eyebrow { color: var(--accent); text-shadow: none; }
+  h1 {
+    color: var(--ink) !important;
+    -webkit-text-fill-color: var(--ink);
+    background: none; text-shadow: none;
+  }
+  .lede { color: #3f3a31; }
+  .byline { color: var(--muted); }
+  .byline strong { color: var(--ink); }
+  .release-banner { background: rgba(193,95,60,0.06); border-color: rgba(193,95,60,0.35); color: var(--ink); }
+  .release-banner .tag-new { background: var(--accent); color: #faf9f4; }
+  .release-banner .arrow { color: var(--accent); }
+
+  /* dark terminal blocks kept dark for contrast and a techy nod */
+  .install-stack .install-row { background: #211e18; border-color: rgba(255,255,255,0.08); }
+  .install-stack .install-row::before { background: var(--accent); }
+  .install-stack .install-row .label { color: #e0a857; }
+  .install-stack .install-row code { color: #74c8bb; }
+  .install-line, .skill-card .install-line { background: #211e18; border-color: rgba(255,255,255,0.08); color: #74c8bb; }
+  .install-line::before { color: #e0a857; }
+
+  /* HUD stats */
+  .hud-cluster { border-top-color: var(--line-strong); }
+  .hud-num { color: var(--ink); text-shadow: none; }
+  .hud-label { color: var(--muted); }
+  .hud-stat { border-left-color: var(--accent); }
+  .hud-stat:nth-child(2) { border-color: var(--amber); }
+  .hud-stat:nth-child(2) .hud-num { text-shadow: none; }
+  .hud-stat:nth-child(3) { border-color: var(--cyan); }
+  .hud-stat:nth-child(4) { border-color: var(--green); }
+
+  /* search + chips */
+  .search-wrap { background: #fffdf7; border-color: var(--line-strong); }
+  .search-wrap svg { color: var(--muted); }
+  .search-wrap input { color: var(--ink); }
+  .search-wrap:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(193,95,60,0.12); }
+  .chip { color: var(--muted); background: rgba(58,48,38,0.03); border-color: var(--line); }
+  .chip:hover { color: var(--ink); border-color: var(--line-strong); }
+  .chip.active { color: #faf9f4; background: var(--accent); border-color: var(--accent); }
+  .result-count, .no-results { color: var(--muted); }
+
+  /* cards */
+  .skill-card { background: #fffdf7; border-color: var(--line); }
+  .skill-card h4 { color: var(--ink); }
+  .skill-card p { color: #555049; }
+  .skill-card::after { background: var(--green); opacity: 0.55; }
+  .skill-card:hover {
+    border-color: rgba(193,95,60,0.42);
+    box-shadow: 0 16px 40px -28px rgba(70,45,25,0.55);
+  }
+  .skill-card.coming { opacity: 0.78; }
+  .skill-card.coming .badge { background: rgba(191,132,48,0.12); color: #9a6f1f; border-color: rgba(191,132,48,0.4); }
+  /* featured panel stays dark for contrast (its inner text is light) */
+  .skill-card.featured {
+    background: linear-gradient(180deg, #2a241d, #221d17);
+    border-color: rgba(193,95,60,0.4);
+  }
+  .tag { background: #efece2; border-color: var(--line-strong); color: #6a645b; }
+
+  /* buttons */
+  .btn { color: var(--ink); background: rgba(58,48,38,0.03); border-color: var(--line-strong); }
+  .btn:hover { color: var(--accent); border-color: var(--accent); background: rgba(193,95,60,0.06); box-shadow: none; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #faf9f4; }
+  .btn.primary:hover { background: #a94e30; border-color: #a94e30; color: #faf9f4; box-shadow: 0 6px 16px -8px rgba(193,95,60,0.5); }
+
+  /* why / quote */
+  .why { background: #f6f4ec; border-color: var(--line-strong); }
+  .why blockquote { border-left-color: var(--accent); color: #3a352d; text-shadow: none; }
+
+  /* explainer band */
+  .explainer-band { background: linear-gradient(180deg, #f6f4ec, #f1eee4); border-color: var(--line-strong); }
+  .explainer-band::before { background: linear-gradient(180deg, var(--accent), #9c4e30); box-shadow: none; }
+  .explainer-band .eyebrow { color: var(--accent); text-shadow: none; }
+  .explainer-band p { color: #4a443b; }
+
+  /* FAQ */
+  #faq details { background: #fffdf7 !important; border-color: var(--line) !important; }
+  #faq details[open] { border-color: var(--line-strong) !important; }
+  #faq summary { color: var(--ink) !important; }
+  #faq summary::after { color: var(--accent); }
+  #faq summary:hover { color: var(--accent) !important; }
+  #faq details p { color: #4a443b !important; }
+
+  /* community + footer */
+  .community-block { border-top-color: var(--line-strong); }
+  .community-block .big-btn { color: var(--ink); background: rgba(58,48,38,0.02); border-color: var(--line-strong); }
+  .community-block .big-btn:hover { color: var(--accent); border-color: var(--accent); background: rgba(193,95,60,0.06); box-shadow: none; }
+  .community-block .big-btn.primary { color: var(--accent); border-color: rgba(193,95,60,0.5); }
+  .community-block .big-btn.primary:hover { color: #a94e30; border-color: var(--accent); background: rgba(193,95,60,0.08); box-shadow: none; }
+  .community-block .share-line a, .community-block .built-by-author { color: var(--ink); }
+  .community-block .avatar { border-color: var(--line-strong); }
+  .agency-callout { background: #f6f4ec; border-color: var(--line); }
+  .agency-callout a, .community-block .done-for-you a { color: var(--accent); }
+  footer { border-top-color: var(--line-strong); color: var(--muted); }
+  footer a { color: var(--muted); }
+  footer a:hover { color: var(--accent); }
+
+  /* group divider lines */
+  #skills > div[style*="border-top"] {
+    border-image: linear-gradient(to right, var(--accent), transparent) 1 !important;
+  }
+
+  @media (max-width: 760px) {
+    .nav { background: rgba(245,243,236,0.98); }
+  }
 </style>
 </head>
 <body>
@@ -1052,6 +1307,11 @@
   <h1>The first open-source AI skills marketplace for car dealers.</h1>
   <p class="lede">23 MIT-licensed skills that turn Claude, Cursor, Codex, and Gemini into a working dealer-operations partner. Free, vendor-neutral, and no lock-in.</p>
   <p class="byline">By <a href="https://arielcoro.com" style="color: var(--ink); text-decoration: underline;"><strong>Ariel Coro</strong></a>. Founder of <a href="https://dealergrowthhackers.com" style="color: var(--muted); text-decoration: underline;">Dealer Growth Hackers</a>. Publisher of <a href="https://www.dealeraiguy.com" style="color: var(--muted); text-decoration: underline;">Dealer AI Guy</a>.</p>
+
+  <div class="search-wrap hero-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+    <input id="skillSearch" type="search" placeholder="Search skills..." autocomplete="off" aria-label="Search the skill catalog">
+  </div>
 
   <div class="install-stack" id="install">
     <div class="install-row">
@@ -1122,7 +1382,19 @@
 <section id="skills">
   <h3>Available now</h3>
   <h2>Skill catalog</h2>
-  <p style="color: var(--muted); max-width: 720px; margin: 0 0 32px; font-size: 16px;">23 installable AI agent skills organized by where they fit in the dealer customer journey, from strategy and diagnosis through AI search visibility, technical foundation, measurement, and customer lifecycle.</p>
+  <p style="color: var(--muted); max-width: 720px; margin: 0 0 22px; font-size: 16px;">Installable AI agent skills organized by where they fit in the dealer customer journey, from strategy and diagnosis through AI search visibility, technical foundation, measurement, and customer lifecycle.</p>
+
+  <div class="chips" id="catChips">
+    <button class="chip active" data-group="all" type="button">All</button>
+    <button class="chip" data-group="g1" type="button">Strategy</button>
+    <button class="chip" data-group="g2" type="button">AI Search</button>
+    <button class="chip" data-group="g3" type="button">SEO &amp; Local</button>
+    <button class="chip" data-group="g4" type="button">Technical</button>
+    <button class="chip" data-group="g5" type="button">Measurement</button>
+    <button class="chip" data-group="g6" type="button">Lifecycle</button>
+  </div>
+  <div class="result-count" id="resultCount"></div>
+  <div class="no-results" id="noResults">No skills match that search. Try another term, or pick a category.</div>
 
   <div style="margin-top: 8px; margin-bottom: 22px; padding: 18px 0 14px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line);">
     <h3 style="color: var(--accent); margin: 0; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700;">Group 1 &middot; 3 skills</h3>
@@ -1877,5 +2149,116 @@
 </footer>
 
 </div>
+
+<script>
+(function () {
+  var skills = document.getElementById('skills');
+  if (!skills) return;
+
+  // The 6 group dividers are direct children with an inline border-top.
+  var kids = Array.prototype.slice.call(skills.children);
+  var dividers = kids.filter(function (el) {
+    return el.tagName === 'DIV' && /border-top/.test(el.getAttribute('style') || '');
+  });
+
+  // "Shipping next" heading and everything after it (roadmap, not searchable).
+  var shipEls = [];
+  var shipHead = kids.filter(function (el) {
+    return el.tagName === 'H3' && /shipping next/i.test(el.textContent);
+  })[0];
+  if (shipHead) {
+    var e = shipHead;
+    while (e) { shipEls.push(e); e = e.nextElementSibling; }
+  }
+
+  // Build groups: each divider + its following skill cards.
+  var groups = dividers.map(function (div, i) {
+    var id = 'g' + (i + 1);
+    div.setAttribute('data-group', id);
+    var cards = [], el = div.nextElementSibling;
+    while (el) {
+      if (el.tagName === 'DIV' && /border-top/.test(el.getAttribute('style') || '')) break;
+      if (el.tagName === 'H3' && /shipping next/i.test(el.textContent)) break;
+      if (el.classList && el.classList.contains('skill-card') && !el.classList.contains('coming')) {
+        el.setAttribute('data-group', id);
+        cards.push(el);
+      }
+      el = el.nextElementSibling;
+    }
+    return { id: id, div: div, cards: cards };
+  });
+
+  var allCards = groups.reduce(function (a, g) { return a.concat(g.cards); }, []);
+  var total = allCards.length;
+
+  var input = document.getElementById('skillSearch');
+  var rc = document.getElementById('resultCount');
+  var nores = document.getElementById('noResults');
+  var heroNum = document.querySelector('.hud-stat .hud-num');
+  if (heroNum) heroNum.textContent = total;
+
+  // chip counts
+  Array.prototype.forEach.call(document.querySelectorAll('#catChips .chip'), function (chip) {
+    var g = chip.getAttribute('data-group');
+    var n = g === 'all' ? total : (function () {
+      var f = groups.filter(function (x) { return x.id === g; })[0];
+      return f ? f.cards.length : 0;
+    })();
+    var s = document.createElement('span');
+    s.className = 'ct'; s.textContent = n;
+    chip.appendChild(s);
+  });
+
+  var activeGroup = 'all';
+
+  function apply() {
+    var q = (input && input.value ? input.value : '').trim().toLowerCase();
+    var shown = 0;
+    allCards.forEach(function (c) {
+      var inGroup = activeGroup === 'all' || c.getAttribute('data-group') === activeGroup;
+      var inText = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
+      var vis = inGroup && inText;
+      c.classList.toggle('hide', !vis);
+      if (vis) shown++;
+    });
+    groups.forEach(function (g) {
+      var visible = g.cards.some(function (c) { return !c.classList.contains('hide'); });
+      g.div.classList.toggle('skill-group-hide', !visible);
+    });
+    var filtering = !!q || activeGroup !== 'all';
+    if (rc) rc.textContent = filtering
+      ? (shown + ' result' + (shown === 1 ? '' : 's'))
+      : (total + ' skills, 6 categories');
+    if (nores) nores.classList.toggle('show', shown === 0);
+    shipEls.forEach(function (el) { el.style.display = filtering ? 'none' : ''; });
+  }
+
+  if (input) input.addEventListener('input', apply);
+  Array.prototype.forEach.call(document.querySelectorAll('#catChips .chip'), function (chip) {
+    chip.addEventListener('click', function () {
+      Array.prototype.forEach.call(document.querySelectorAll('#catChips .chip'), function (c) {
+        c.classList.remove('active');
+      });
+      chip.classList.add('active');
+      activeGroup = chip.getAttribute('data-group');
+      apply();
+      if (activeGroup !== 'all') skills.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Typing in the hero search jumps focus to the catalog the first time.
+  var jumped = false;
+  if (input) input.addEventListener('input', function () {
+    if (!jumped && input.value) {
+      jumped = true;
+      var y = skills.getBoundingClientRect().top + window.pageYOffset - 80;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+    if (!input.value) jumped = false;
+  });
+
+  apply();
+})();
+</script>
 </body>
 </html>
