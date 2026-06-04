@@ -8,7 +8,7 @@ By **[Ariel Coro](https://arielcoro.com)**. Founder of [Dealer Growth Hackers](h
 
 ## What this is
 
-A curated collection of 15 installable AI agent skills designed specifically for car dealer retail operations. Each skill encapsulates a workflow that dealers, agencies serving dealers, or technical buyers at dealer groups need to run repeatedly.
+A curated collection of installable AI agent skills designed specifically for car dealer retail operations. Each skill encapsulates a workflow that dealers, agencies serving dealers, or technical buyers at dealer groups need to run repeatedly.
 
 Skills here are **vendor-neutral**. They name the operational problem and the steps to solve it. They do not promote a specific DMS, CRM, ad platform, or AI vendor.
 
