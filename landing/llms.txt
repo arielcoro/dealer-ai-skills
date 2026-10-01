@@ -62,5 +62,6 @@ Dealer AI Skills is a free, open-source marketplace of 23 installable AI agent s
 
 - [Ariel Coro](https://arielcoro.com): Founder of Dealer Growth Hackers, publisher of Dealer AI Guy, and author of the marketplace
 - [Dealer Growth Hackers](https://dealergrowthhackers.com): Digital marketing agency for car dealers
+- [Dealer AI Ecosystem](https://dealeraiplugins.com/ecosystem/): Connected dealership AI education, open-source resources, diagnostics, infrastructure, implementation services, and dealer products
 - [Dealer AI Guy](https://www.dealeraiguy.com): Publication covering AI for the automotive retail industry
 - License: MIT. Free to use, copy, modify, redistribute, and white-label.
