@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website AI Readiness"
+  short_description: "Assess website AI readiness with evidence"
+  default_prompt: "Use $website-ai-readiness to assess this website and provide an evidence-backed score range and prioritized fix plan."

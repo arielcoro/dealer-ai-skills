@@ -11,6 +11,16 @@
   "license": "MIT",
   "plugins": [
     {
+      "name": "website-ai-readiness",
+      "source": "./skills/website-ai-readiness",
+      "description": "Evidence-backed website AI readiness assessment with coverage-aware scores and prioritized fixes.",
+      "version": "1.0.0",
+      "author": {"name": "Dealer Growth Hackers", "url": "https://dealergrowthhackers.com/"},
+      "homepage": "https://dealeraiskills.com/skills/website-ai-readiness/",
+      "category": "automotive-retail",
+      "keywords": ["website", "ai-readiness", "ai-search", "audit"]
+    },
+    {
       "name": "dealer-ai-readiness-audit",
       "source": "./skills/dealer-ai-readiness-audit",
       "description": "Run the 75-point Dealer AI Readiness Audit on a franchise or independent car dealership. 17 sections, vendor-neutral, produces a sequenced 30/60/90 day remediation roadmap.",

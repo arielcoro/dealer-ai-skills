@@ -64,3 +64,6 @@ Dealer AI Skills is a free, open-source marketplace of 23 installable AI agent s
 - [Dealer Growth Hackers](https://dealergrowthhackers.com): Digital marketing agency for car dealers
 - [Dealer AI Guy](https://www.dealeraiguy.com): Publication covering AI for the automotive retail industry
 - License: MIT. Free to use, copy, modify, redistribute, and white-label.
+# Website AI Readiness
+
+- [Website AI Readiness](https://dealeraiskills.com/skills/website-ai-readiness/): Evidence-backed technical and content assessment for any website, with optional dealership and connector checks.

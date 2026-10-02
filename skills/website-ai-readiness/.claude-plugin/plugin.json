@@ -1,0 +1,19 @@
+{
+  "name": "website-ai-readiness",
+  "version": "1.0.0",
+  "description": "Assess any website for AI search access, accurate answers, data integrity, customer handoffs, and optional connected assistants using reproducible evidence and coverage-aware scores.",
+  "author": {
+    "name": "Dealer Growth Hackers",
+    "url": "https://dealergrowthhackers.com/"
+  },
+  "homepage": "https://dealeraiskills.com/skills/website-ai-readiness/",
+  "repository": "https://github.com/arielcoro/dealer-ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "ai-readiness",
+    "audit",
+    "claude",
+    "ai-search"
+  ]
+}
